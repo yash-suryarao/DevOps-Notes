@@ -22,4 +22,5 @@
 **<li> git branch : </li>**Lists all branches in the repository.
 **<li> git checkout : </li>**Switches between branches.
 **<li> git merge : </li>**Combines changes from one branc into another.
+
 </ul>
