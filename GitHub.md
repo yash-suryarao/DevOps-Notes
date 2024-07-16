@@ -13,11 +13,11 @@
 <h3> Git Commands: </h3>
 <ul>
   
-**<li> git init : </li>**Initializes a new Git repository in the current directory.
-**<li> git clone : </li>**Creates a copy of an existing repository on your local machine.
-**<li> git add : </li>**Add changes to the staging ares.
-**<li> git commit : </li>**Saves a snapshot of the staged changes with a descriptive message.
-**<li> git push : </li>**Uploads your local commits to a remote repository.
+<li><b>git init : </b></li>Initializes a new Git repository in the current directory.
+<li><b> git clone : </b></li>Creates a copy of an existing repository on your local machine.
+<li><b> git add : </b></li>Add changes to the staging ares.
+<li><b> git commit : </b></li>Saves a snapshot of the staged changes with a descriptive message.
+<li> git push : </li>Uploads your local commits to a remote repository.
 **<li> git pull : </li>**Fetches changes from a remote repository and merges them into your local branch.
 **<li> git branch : </li>**Lists all branches in the repository.
 **<li> git checkout : </li>**Switches between branches.
