@@ -44,9 +44,9 @@ In Short the role of DevOps engineers is to deploy, troubleshoot, and make sure 
 <img width=500 height=300 src="https://www.simform.com/wp-content/uploads/2022/01/devops-lifecycle-phases.png">
 </div>
 
-<br>**1. Continious Development:**
-<br>**2. Continious Integration:**
-<br>**3. Continious Testing:**
+<br>**1. Continious Development (Planning & Coding):** This phase involves the planning and coding of the software. The vision of the project is decided during the planning phase. And the developers begin developing the code for the application. There are no DevOps tools that are required for planning, but there are several tools for maintaining the code.
+<br>**2. Continious Integration:** Continuous integration is the most important stage of the DevOps lifecycle. At this phase, updated code or new functionality and features are developed and incorporated into the existing code. In addition, defects are spotted and recognized in the code at each level of unit testing during this phase, and the source code is updated accordingly. This stage transforms integration into a continuous process in which code is tested before each commit. In addition, the necessary tests are planned during this period.
+<br>**3. Continious Testing:** 
 <br>**4. Continious Deployment:**
 <br>**5. Continious Feedback:**
 <br>**6. Continious Monitoring:**
