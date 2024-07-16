@@ -49,3 +49,41 @@ In Short the role of DevOps engineers is to deploy, troubleshoot, and make sure 
 <br>**6. Continious Monitoring:**
 <br>**7. Continious Operations:**
 
+
+<h4> Q) difference between monolithic architecture and microlithic architecture? <h4>
+=>
+<b>Monolithic Architecture:-</b>
+Monolitic arcitecture is a traditional approach to designing software where an entire application is built as one large system and is usually one code-base. In this architecture, all the different components of the application, such as the user interface, business logic, and data access layer, are tightly integrated and deployed together. It extremely difficult to change technology or language or framework because everything is tightly coupled and depend on each other.
+
+<b>Microlithic/Microservices Architecture:-</b>
+Microservices architecture is built as small independent module based on business functionality. In microservices application, each project and services are independent from each other at the code level. Therefore it is easy to  configure and deploy completely and also easy to scale based on demand. <br>
+- Each service is responsible for a single functionality or feature of the application and can be developed, deployed, and scaled independently. <br>
+- The Microservice architecture has a significant impact on the relationship between the application and the database. <br>
+- Instead of sharing a single database with other microservices, each microservice has its own database. It often results in duplication of some data, but having a database per microservice is essential if you want to benefit from this architecture, as it ensures loose coupling.
+
+<table>
+  <tr>
+    <th>Sr. No.</th>
+    <th>Key</th>
+    <th>Monolithic architecture</th>
+    <th>Microservices architecture</th>
+  </tr>
+  <tr>
+    <td> 1 </td>
+    <td> Basic </td>
+    <td> Monolithic architecture is built as one large system and is usually one code-base </td>
+    <td> Microservices architecture is built as small independent module based on business functionality </td>
+  </tr>
+  <tr>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+  </tr>
+</table>
