@@ -99,3 +99,14 @@ Microservices architecture is built as small independent module based on busines
     <td> Easy to change technology or framework because every module and project is independent </td>
   </tr>
 </table>
+
+<br><br>
+
+<h3> Q) Difference between Statefull and Stateless application?</h3>
+=>
+<b>Stateful applicationS:-</b>
+Stateful appln save session/client data on the server, which can provide faster processing and imoroved performance. However, they require more memory and processing power to maintain session information, and can be more difficult to develop and maintain. <br>
+<b>For example,</b> if you're shopping on Amazon, whether you're logged in or have items in your cart are examples of state.
+
+<b>Stateless applicationS:-</b>
+Stateless appln don't save session data on the server, and instead rely on external entities like databases or cache to manage state. This can make them simpler to develop and maintain, and they often use fewer resources.
