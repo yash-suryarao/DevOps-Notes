@@ -17,10 +17,10 @@
 <li><b> git clone : </b>Creates a copy of an existing repository on your local machine.</li>
 <li><b> git add : </b>Add changes to the staging ares.</li>
 <li><b> git commit : </b>Saves a snapshot of the staged changes with a descriptive message.</li>
-<li> git push : </b>Uploads your local commits to a remote repository.</li>
-<b><li> git pull : </b>Fetches changes from a remote repository and merges them into your local branch.</li>
-<b><li> git branch : </b>Lists all branches in the repository.</li>
-<b><li> git checkout : </b>Switches between branches.</li>
-<b><li> git merge : </b>Combines changes from one branc into another.</li>
+<li><b> git push : </b>Uploads your local commits to a remote repository.</li>
+<li><b> git pull : </b>Fetches changes from a remote repository and merges them into your local branch.</li>
+<li></li><b> git branch : </b>Lists all branches in the repository.</li>
+<li><b> git checkout : </b>Switches between branches.</li>
+<li><b> git merge : </b>Combines changes from one branc into another.</li>
 
 </ul>
