@@ -5,7 +5,7 @@ This repository contains all the concepts/notes of DevOps and its tools.
 => DevOps is a software development practice that aims to improve collaboration between devlopment and operations teams. The goal is to deliver software faster and more reliavle.
 
 <h3> 2. What does DevOps engineers actually do? </h3>
-=> DevOps simplify software development and deployment by automating tasks through different practices like, <br>
+=> DevOps simplify software development and deployment by automating tasks through different practices like,
   - CICD using <b>GitLab</b> and <b>GitHub.</b> <br>
   - Creating and managng infrastructure programmatically using <b>Terraform</b> or <b>Ansible.</b> <br>
   - Monitoring systems or applications through <b>Prometheus</b> or <b>Grfana.</b> <br>
