@@ -25,8 +25,7 @@ In Short the role of DevOps engineers is to deploy, troubleshoot, and make sure 
 
 <h3> 4. DevOps Lifecycle: </h3>
 <div>
-  <img width=500 height=300 alt="DevOps lifecycle" src="![image](https://github.com/user-attachments/assets/edca5cfb-0aa1-45da-8587-f37e8ef87d6c)
-">
+  <img width=500 height=300 alt="DevOps lifecycle" src="https://images.app.goo.gl/kysZoonv6AVhLinW9">
 </div>
 => DevOps Lifecycle is a methodology software development teams use to bring products to market more quickly and efficiently. It's a way of managing the entire software lifecycle from development through release, focusing on collaboration between developers and IT operations professionals. Constant software creation, development, verification, release, and management are part of the DevOps lifecycle.
 
