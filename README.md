@@ -25,5 +25,5 @@ In Short the role of DevOps engineers is to deploy, troubleshoot, and make sure 
 
 <h3> 4. DevOps Lifecycle: </h3>
 <div>
-  <img width=200 height=200 src="https://images.app.goo.gl/NjzQypRCuGuBqpsu7">
+  <img width="200" height="200" src="[https://images.app.goo.gl/NjzQypRCuGuBqpsu7](https://images.app.goo.gl/NjzQypRCuGuBqpsu7)">
 </div>
