@@ -40,12 +40,15 @@ In Short the role of DevOps engineers is to deploy, troubleshoot, and make sure 
 <br>
 
 <h3> 5. DevOps Phases: </h3>
+<div>
 <img width=500 height=300 src="https://www.simform.com/wp-content/uploads/2022/01/devops-lifecycle-phases.png">
-<br>
-**1. Continious Development:**
-**2. Continious Integration:**
-**3. Continious Testing:**
-**4. Continious Deployment:**
-**5. Continious Feedback:**
-**6. Continious Monitoring:**
-**7. Continious Operations:**
+</div>
+
+<br>**1. Continious Development:**
+<br>**2. Continious Integration:**
+<br>**3. Continious Testing:**
+<br>**4. Continious Deployment:**
+<br>**5. Continious Feedback:**
+<br>**6. Continious Monitoring:**
+<br>**7. Continious Operations:**
+
