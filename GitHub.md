@@ -13,14 +13,14 @@
 <h3> Git Commands: </h3>
 <ul>
   
-<li><b>git init : </b></li>Initializes a new Git repository in the current directory.
-<li><b> git clone : </b></li>Creates a copy of an existing repository on your local machine.
-<li><b> git add : </b></li>Add changes to the staging ares.
-<li><b> git commit : </b></li>Saves a snapshot of the staged changes with a descriptive message.
-<li> git push : </li>Uploads your local commits to a remote repository.
-**<li> git pull : </li>**Fetches changes from a remote repository and merges them into your local branch.
-**<li> git branch : </li>**Lists all branches in the repository.
-**<li> git checkout : </li>**Switches between branches.
-**<li> git merge : </li>**Combines changes from one branc into another.
+<li><b>git init : </b>Initializes a new Git repository in the current directory.</li>
+<li><b> git clone : </b>Creates a copy of an existing repository on your local machine.</li>
+<li><b> git add : </b>Add changes to the staging ares.</li>
+<li><b> git commit : </b>Saves a snapshot of the staged changes with a descriptive message.</li>
+<li> git push : </b>Uploads your local commits to a remote repository.</li>
+<b><li> git pull : </b>Fetches changes from a remote repository and merges them into your local branch.</li>
+<b><li> git branch : </b>Lists all branches in the repository.</li>
+<b><li> git checkout : </b>Switches between branches.</li>
+<b><li> git merge : </b>Combines changes from one branc into another.</li>
 
 </ul>
