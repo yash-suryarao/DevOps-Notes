@@ -13,3 +13,17 @@ This repository contains all the concepts/notes of DevOps and its tools.
 And many other practices that ensures reliablity, security, and performance of your software applications. <br>
 <br>
 In Short the role of DevOps engineers is to deploy, troubleshoot, and make sure your applications or system are up and working.
+
+<h3> 3. Benefits of DevOps? </h3>
+1. increase productivity:
+2. Faster delivery
+3. Better collaboration:
+4. Greater automation: DevOps teams can use automation to speed up tasks like testing, code deployment, and incident management.
+5. Easier maintenance: DevOps can make it easier to maintain exixting deployment.
+6. Decreases load: 
+7. Improved quality: DevOps can help increase reliability and quality.
+
+<h3> 4. DevOps Lifecycle: </h3>
+<div>
+  <img width=200 height=200 src="https://images.app.goo.gl/NjzQypRCuGuBqpsu7">
+</div>
