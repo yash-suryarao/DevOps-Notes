@@ -37,4 +37,7 @@ In Short the role of DevOps engineers is to deploy, troubleshoot, and make sure 
 <br> **6. Deploy:** At this point, Infrastructure-as-Code assists in creating the operational infrastructure and subsequently publishes the build using various DevOps lifecycle tools.
 <br> **7. Operate:** This version is now convenient for users to utilize. With tools including Chef, the management department take care of server configuration and deployment at this point.
 <br> **8. Monitor:** The DevOps workflow is observed at this level depending on data gathered from consumer behavior, application efficiency, and other sources. The ability to observe the complete surroundings aids teams in identifying bottlenecks affecting the production and operations teams' performance times
+<br>
 
+<h3> 5. DevOps Phases: </h3>
+![image](https://github.com/user-attachments/assets/fbcc302d-b571-437d-8385-bdc73e45f74e)
