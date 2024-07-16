@@ -50,11 +50,11 @@ In Short the role of DevOps engineers is to deploy, troubleshoot, and make sure 
 <br>**7. Continious Operations:**
 
 
-<h4> Q) difference between monolithic architecture and microlithic architecture? <h4>
+<h4> Q) difference between monolithic architecture and microlithic architecture? </h4>
 =>
 <b>Monolithic Architecture:-</b>
 Monolitic arcitecture is a traditional approach to designing software where an entire application is built as one large system and is usually one code-base. In this architecture, all the different components of the application, such as the user interface, business logic, and data access layer, are tightly integrated and deployed together. It extremely difficult to change technology or language or framework because everything is tightly coupled and depend on each other.
-
+<br>
 <b>Microlithic/Microservices Architecture:-</b>
 Microservices architecture is built as small independent module based on business functionality. In microservices application, each project and services are independent from each other at the code level. Therefore it is easy to  configure and deploy completely and also easy to scale based on demand. <br>
 - Each service is responsible for a single functionality or feature of the application and can be developed, deployed, and scaled independently. <br>
@@ -75,15 +75,27 @@ Microservices architecture is built as small independent module based on busines
     <td> Microservices architecture is built as small independent module based on business functionality </td>
   </tr>
   <tr>
-    <td></td>
+    <td> 2 </td>
+    <td> Scale </td>
+    <td> It is not easy to scale based on demand </td>
+    <td> It is easy to scale based on demand. </td>
   </tr>
   <tr>
-    <td></td>
+    <td> 3 </td>
+    <td> Database </td>
+    <td> It has shared databse </td>
+    <td> Each project/layer and module has their own database </td>
   </tr>
   <tr>
-    <td></td>
+    <td> 4 </td>
+    <td> Deployment </td>
+    <td> Large code base makes IDE skiw and build time gets increase </td>
+    <td> Each project is independent and small in size. So overall build and development time gets decrease. </td>
   </tr>
   <tr>
-    <td></td>
+    <td> 5 </td>
+    <td> Tightly Coupled and Loosely coupled </td>
+    <td> It extremely difficult to change technology or language or framework because everything is tightly coupled and depend on each other </td>
+    <td> Easy to change technology or framework because every module and project is independent </td>
   </tr>
 </table>
