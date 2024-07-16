@@ -1,4 +1,4 @@
-# DevOps-Notes
+![image](https://github.com/user-attachments/assets/c6868745-1fdd-4df6-9f03-be6ae0b035a7)![image](https://github.com/user-attachments/assets/d26e414d-c2b5-42e4-abfa-74c28745badc)# DevOps-Notes
 This repository contains all the concepts/notes of DevOps and its tools.
 
 <h3> 1. What is DevOps? </h3>
@@ -15,24 +15,26 @@ And many other practices that ensures reliablity, security, and performance of y
 In Short the role of DevOps engineers is to deploy, troubleshoot, and make sure your applications or system are up and working.
 
 <h3> 3. Benefits of DevOps? </h3>
-1. increase productivity:
-2. Faster delivery
-3. Better collaboration:
-4. Greater automation: DevOps teams can use automation to speed up tasks like testing, code deployment, and incident management.
-5. Easier maintenance: DevOps can make it easier to maintain exixting deployment.
-6. Decreases load: 
-7. Improved quality: DevOps can help increase reliability and quality.
+<br> 1. increase productivity:
+<br> 2. Faster delivery
+<br>3. Better collaboration:
+<br> 4. Greater automation: DevOps teams can use automation to speed up tasks like testing, code deployment, and incident management.
+<br> 5. Easier maintenance: DevOps can make it easier to maintain exixting deployment.
+<br> 6. Decreases load: 
+<br> 7. Improved quality: DevOps can help increase reliability and quality.
 
 <h3> 4. DevOps Lifecycle: </h3>
 <div>
   <img width=500 height=300 alt="DevOps lifecycle" src="https://miro.medium.com/v2/resize:fit:1024/0*u6zi1ux8N6qDQTha.png">
 </div>
+=> DevOps Lifecycle is a methodology software development teams use to bring products to market more quickly and efficiently. It's a way of managing the entire software lifecycle from development through release, focusing on collaboration between developers and IT operations professionals. Constant software creation, development, verification, release, and management are part of the DevOps lifecycle.
 
-**1. Plan:** 
-**2. Code:**
-**3. Build:**
-**4. Test:**
-**5. Release:**
-**6. Deploy:**
-**7. Operate:**
-**8. Monitor:**
+<br> **1. Plan:** Professional determine the commercial need and gather end-user opinions through this 
+<br> **2. Code:** Developers will write code in accordance with the specifications outlined in the planning phase and will ensure that the code is created with the project’s operations in mind. DevOps tools and extexnsion like Git that assist them in preventing safety problems and bad coding standards.
+<br> **3. Build:** After programmers have completed their tasks, they use tools suc as Maven and Gradle to submit the code to the common code source.
+<br> **4. Test:** To assure software integrity, the product is first delivered to the test platform to execute various sorts of screening such as user acceptability testing, safety testing, integration checking, speed testing, and so on, utilizing tools such as JUnit, Selenium, etc. 
+<br> **5. Release:** At this point, the build is prepared to be deployed in the operational environment. The DevOps department prepares updates or sends several versions to production when the build satisfies all checks based on the organizational demands.
+<br> **6. Deploy:** At this point, Infrastructure-as-Code assists in creating the operational infrastructure and subsequently publishes the build using various DevOps lifecycle tools.
+<br> **7. Operate:** This version is now convenient for users to utilize. With tools including Chef, the management department take care of server configuration and deployment at this point.
+<br> **8. Monitor:** The DevOps workflow is observed at this level depending on data gathered from consumer behavior, application efficiency, and other sources. The ability to observe the complete surroundings aids teams in identifying bottlenecks affecting the production and operations teams' performance times
+
