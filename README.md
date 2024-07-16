@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/c6868745-1fdd-4df6-9f03-be6ae0b035a7)![image](https://github.com/user-attachments/assets/d26e414d-c2b5-42e4-abfa-74c28745badc)# DevOps-Notes
+# DevOps-Notes
 This repository contains all the concepts/notes of DevOps and its tools.
 
 <h3> 1. What is DevOps? </h3>
@@ -40,4 +40,4 @@ In Short the role of DevOps engineers is to deploy, troubleshoot, and make sure 
 <br>
 
 <h3> 5. DevOps Phases: </h3>
-<img width=300 height=300 src="https://www.simform.com/wp-content/uploads/2022/01/devops-lifecycle-phases.png">
+<img width=500 height=500 src="https://www.simform.com/wp-content/uploads/2022/01/devops-lifecycle-phases.png">
