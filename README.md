@@ -40,4 +40,4 @@ In Short the role of DevOps engineers is to deploy, troubleshoot, and make sure 
 <br>
 
 <h3> 5. DevOps Phases: </h3>
-![image](https://github.com/user-attachments/assets/fbcc302d-b571-437d-8385-bdc73e45f74e)
+<img src="https://www.simform.com/wp-content/uploads/2022/01/devops-lifecycle-phases.png">
