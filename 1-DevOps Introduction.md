@@ -152,5 +152,101 @@ Stateless applications don't save session data on the server, and instead rely o
 
 <h3> Q) Difference between Agile and Waterfall Model? </h3>
 =>
+<b> Agile Model:- </b>This is flexible, iterative and incremental modle emphasizes collaboration, continuous feedback, and adaptation to changing requirements. In Agile model teams may work on different phases of a project simultaneously, and they focus on delivering small, functional segments quickly. Agile teams also tend to use minimal documentation and informal communication.
+
+<div>
+  <img width=200 height=200 src="https://static.javatpoint.com/difference/images/agile-vs-waterfall-model.png">
+</div>
+
+<ul>
+  <li>
+    Agile focuses on customer feedback, colaboration, small and rapid releases.
+  </li>
+  <li>
+    Its purpose is to manage complex projects.
+  </li>
+  <li>
+    The Agile produces better application suites with the desired requirements. Moreever, it can quickly adapt according to the canges made on time during the project life.
+  </li>
+  <li>
+    It has a small team size. Therefore, fewer people work on it so that they can move faster.
+  </li>
+  <li>
+    The agile model is not a suitable model for small projects. The expenses of developing the small projects using agile are more than compared to other models.
+  </li>
+  <li>
+    In agile methodology, the interaction of customers is very high, as after each iteration an incremental model is deployed to customers.
+  </li>
+</ul>
 
 
+<b> Waterfall Model:- </b>This rigid, sequential model focuses on thorough planning and execution of project phases in order, from requirements gathering to deployment. Waterfall teams must complete each phase before moving on to the next, and they rely heavily on detailed documentation and formal communication.
+
+<div>
+  <img width=200 height=200 src="https://static.javatpoint.com/difference/images/agile-vs-waterfall-model2.png">
+</div>
+
+<ul>
+  <li>
+    Waterfall model is not an ideal model to develop a large scale project size.
+  </li>
+  <li>
+    The requirements in the waterfall model should be clear cut at the beginning time; otherwise, it may lead to a less effective method.
+  </li>
+  <li>
+    In the waterfall model, it is hard to move back in order to make changes in the previous phase.
+  </li>
+  <li>
+    The testing process in the waterfall model starts after the completion of development. So, there is a high chance of bugs to be found later in the project development.
+  </li>
+</ul>
+
+
+<table>
+  <tr>
+    <th>  </th>
+    <th>  </th>
+    <th>  </th>
+  </tr>
+
+  <tr>
+    <td>  </td>
+    <td>  </td>
+    <td>  </td>
+  </tr>
+  <tr>
+    <td>  </td>
+    <td>  </td>
+    <td>  </td>
+  </tr>
+  <tr>
+    <td>  </td>
+    <td>  </td>
+    <td>  </td>
+  </tr>
+  <tr>
+    <td>  </td>
+    <td>  </td>
+    <td>  </td>
+  </tr>
+  <tr>
+    <td>  </td>
+    <td>  </td>
+    <td>  </td>
+  </tr>
+  <tr>
+    <td>  </td>
+    <td>  </td>
+    <td>  </td>
+  </tr>
+  <tr>
+    <td>  </td>
+    <td>  </td>
+    <td>  </td>
+  </tr>
+  <tr>
+    <td>  </td>
+    <td>  </td>
+    <td>  </td>
+  </tr>
+</table>
