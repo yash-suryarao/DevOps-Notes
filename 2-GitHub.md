@@ -12,15 +12,27 @@
 
 <h3> Git Commands: </h3>
 <ul>
-  
+
+<li><b>git help : </b>Take help from the Git help section for different commands and other errors.</li>
+<li><b> git config : </b>To set the basic configurations on Git like your name and email.</li>
+<li><b> git config --global user.name "Yash" : </b>Sets configuration values for your name on git.</li>
+<li><b> git config --global user.email yash123@gmail.com : </b>Sets configuration calues for your user email on git.</li>
+<li><b> git git config --global color.ui true : </b>To see different colors on the command line for different outputs.</li>
 <li><b>git init : </b>Initializes a new Git repository in the current directory.</li>
+<li><b> git status : </b>To see what's changed since the last commit.</li>
 <li><b> git clone : </b>Creates a copy of an existing repository on your local machine.</li>
-<li><b> git add : </b>Add changes to the staging ares.</li>
-<li><b> git commit : </b>Saves a snapshot of the staged changes with a descriptive message.</li>
+<li><b> git add <file-name>: </b>Add changes to the staging area.</li>
+<li><b> git add --all: </b>Add all files of the current directory to the staging area.</li>
+<li><b> git commit -m "message": </b>Saves a snapshot of the staged changes with a descriptive message.</li>
+<li><b> git commit -a -m "message": </b>To add any of our tracked files to the stageing area and commit them by providing a message to remember.</li>
+<li><b> git log : </b>To check the history of commits for our reference.</li>
 <li><b> git push : </b>Uploads your local commits to a remote repository.</li>
 <li><b> git pull : </b>Fetches changes from a remote repository and merges them into your local branch.</li>
 <li><b> git branch : </b>Lists all branches in the repository.</li>
 <li><b> git checkout : </b>Switches between branches.</li>
 <li><b> git merge : </b>Combines changes from one branc into another.</li>
+<li><b> git rm: </b>To remove a remove files from working dir.</li>
+<li><b> git diff: </b>To figure out what changes you made since the last commit.</li>
+
 
 </ul>
