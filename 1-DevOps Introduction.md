@@ -106,10 +106,18 @@ Microservices architecture is built as small independent module based on busines
 =>
 <b>Stateful applications:-</b>
 Stateful applications save session/client data on the server, which can provide faster processing and imoroved performance. However, they require more memory and processing power to maintain session information, and can be more difficult to develop and maintain. <br>
-<b>For example,</b> if you're shopping on Amazon, whether you're logged in or have items in your cart are examples of state.
+<b>For example,</b> <br>
+- Online shoping carts:- Kepp track of what you put in them. <br>
+- Banking systems:- Keep track of account information.<br>
+- Social media sites: Display information based on a user's preferences.
+
 <br><br>
+
 <b>Stateless applications:-</b>
-Stateless applications don't save session data on the server, and instead rely on external entities like databases or cache to manage state. This can make them simpler to develop and maintain, and they often use fewer resources.
+Stateless applications don't save session data on the server, and instead rely on external entities like databases or cache to manage state. This can make them simpler to develop and maintain, and they often use fewer resources. <br>
+<b>For example,</b> <br>
+- File Transfer applications
+- Downloading
 
 <br><br>
 
