@@ -11,7 +11,7 @@ And many other practices that ensures reliablity, security, and performance of y
 <br>
 In Short the role of DevOps engineers is to deploy, troubleshoot, and make sure your applications or system are up and working.
 
-<h3> 3. Benefits of DevOps? </h3> <br>
+<h3> 3. Benefits of DevOps? </h3>
 <b> 1. increase productivity:</b>
 <br><b> 2. Faster delivery:</b>
 <br><b> 3. Better collaboration:</b>
