@@ -89,7 +89,7 @@ Microservices architecture is built as small independent module based on busines
   <tr>
     <td> 4 </td>
     <td> Deployment </td>
-    <td> Large code base makes IDE skiw and build time gets increase </td>
+    <td> Large code base makes IDE slow and build time gets increase </td>
     <td> Each project is independent and small in size. So overall build and development time gets decrease. </td>
   </tr>
   <tr>
