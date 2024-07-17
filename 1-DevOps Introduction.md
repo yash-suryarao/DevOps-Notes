@@ -110,8 +110,7 @@ Stateful applications save session/client data on the server, which can provide 
 - Online shoping carts:- Kepp track of what you put in them. <br>
 - Banking systems:- Keep track of account information.<br>
 - Social media sites: Display information based on a user's preferences.
-
-<br><br>
+<br>
 
 <b>Stateless applications:-</b>
 Stateless applications don't save session data on the server, and instead rely on external entities like databases or cache to manage state. This can make them simpler to develop and maintain, and they often use fewer resources. <br>
