@@ -155,7 +155,7 @@ Stateless applications don't save session data on the server, and instead rely o
 <b> Agile Model:- </b>This is flexible, iterative and incremental modle emphasizes collaboration, continuous feedback, and adaptation to changing requirements. In Agile model teams may work on different phases of a project simultaneously, and they focus on delivering small, functional segments quickly. Agile teams also tend to use minimal documentation and informal communication.
 
 <div>
-  <img width=400 height=300 src="https://static.javatpoint.com/difference/images/agile-vs-waterfall-model.png">
+  <img width=400 height=250 src="https://static.javatpoint.com/difference/images/agile-vs-waterfall-model.png">
 </div>
 
 <ul>
@@ -183,7 +183,7 @@ Stateless applications don't save session data on the server, and instead rely o
 <b> Waterfall Model:- </b>This rigid, sequential model focuses on thorough planning and execution of project phases in order, from requirements gathering to deployment. Waterfall teams must complete each phase before moving on to the next, and they rely heavily on detailed documentation and formal communication.
 
 <div>
-  <img width=400 height=300 src="https://static.javatpoint.com/difference/images/agile-vs-waterfall-model2.png">
+  <img width=400 height=250 src="https://static.javatpoint.com/difference/images/agile-vs-waterfall-model2.png">
 </div>
 
 <ul>
@@ -204,49 +204,39 @@ Stateless applications don't save session data on the server, and instead rely o
 
 <table>
   <tr>
-    <th>  </th>
-    <th>  </th>
-    <th>  </th>
+    <th> Feature </th>
+    <th> Agile </th>
+    <th> Waterfall </th>
   </tr>
 
   <tr>
-    <td>  </td>
-    <td>  </td>
-    <td>  </td>
+    <td> Approach </td>
+    <td> Agile model follows the <b>Iterative and incremental approach</b> </td>
+    <td> Waterfall model follows a <b>Linear and sequential approach</b> </td>
   </tr>
   <tr>
-    <td>  </td>
-    <td>  </td>
-    <td>  </td>
+    <td> Flexibility </td>
+    <td> Agile model is flexible as there is a possibility of changing the requirements even after starting the development process. </td>
+    <td> On the other hand, the waterfall model is rigid as it does not allow to modify the requirements once the development process starts.</td>
   </tr>
   <tr>
-    <td>  </td>
-    <td>  </td>
-    <td>  </td>
+    <td> Customer interaction </td>
+    <td> In Agile model, there is a high customer interaction. It is because, after every iteration, an incremental version is deployed to the customer. It requires continious feedback and collaboration. </td>
+    <td> Customer interaction in waterfall model is very less. It is because, in a waterfall model, the product is delivered to the customer after overall development. </td>
   </tr>
   <tr>
-    <td>  </td>
-    <td>  </td>
-    <td>  </td>
+    <td> Suitability </td>
+    <td> Agile model is not a suitable model for small projects. The expenses of developing the small projects using agile is more than compared to other models. </td>
+    <td> Waterfall model works well in smaller size projects where requirements are easily understandable. But waterfall model is not suitable for developing the large projects. </td>
   </tr>
   <tr>
-    <td>  </td>
-    <td>  </td>
-    <td>  </td>
+    <td> Team Size </td>
+    <td> It has a small team size. As smaller is the team, the fewer people work on it so that they can move faster. </td>
+    <td> In the waterfall model, the team may consist more members. </td>
   </tr>
   <tr>
-    <td>  </td>
-    <td>  </td>
-    <td>  </td>
-  </tr>
-  <tr>
-    <td>  </td>
-    <td>  </td>
-    <td>  </td>
-  </tr>
-  <tr>
-    <td>  </td>
-    <td>  </td>
-    <td>  </td>
+    <td> Testing </td>
+    <td> Continuous testing throughout development </td>
+    <td> Testing phase occurs after implementation </td>
   </tr>
 </table>
