@@ -183,7 +183,7 @@ Stateless applications don't save session data on the server, and instead rely o
 <b> Waterfall Model:- </b>This rigid, sequential model focuses on thorough planning and execution of project phases in order, from requirements gathering to deployment. Waterfall teams must complete each phase before moving on to the next, and they rely heavily on detailed documentation and formal communication.
 
 <div>
-  <img width=200 height=200 src="https://static.javatpoint.com/difference/images/agile-vs-waterfall-model2.png">
+  <img width=300 height=300 src="https://static.javatpoint.com/difference/images/agile-vs-waterfall-model2.png">
 </div>
 
 <ul>
