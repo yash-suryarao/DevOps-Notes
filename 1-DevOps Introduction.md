@@ -155,7 +155,7 @@ Stateless applications don't save session data on the server, and instead rely o
 <b> Agile Model:- </b>This is flexible, iterative and incremental modle emphasizes collaboration, continuous feedback, and adaptation to changing requirements. In Agile model teams may work on different phases of a project simultaneously, and they focus on delivering small, functional segments quickly. Agile teams also tend to use minimal documentation and informal communication.
 
 <div>
-  <img width=200 height=200 src="https://static.javatpoint.com/difference/images/agile-vs-waterfall-model.png">
+  <img width=400 height=300 src="https://static.javatpoint.com/difference/images/agile-vs-waterfall-model.png">
 </div>
 
 <ul>
@@ -183,7 +183,7 @@ Stateless applications don't save session data on the server, and instead rely o
 <b> Waterfall Model:- </b>This rigid, sequential model focuses on thorough planning and execution of project phases in order, from requirements gathering to deployment. Waterfall teams must complete each phase before moving on to the next, and they rely heavily on detailed documentation and formal communication.
 
 <div>
-  <img width=300 height=300 src="https://static.javatpoint.com/difference/images/agile-vs-waterfall-model2.png">
+  <img width=400 height=300 src="https://static.javatpoint.com/difference/images/agile-vs-waterfall-model2.png">
 </div>
 
 <ul>
