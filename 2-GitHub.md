@@ -63,7 +63,7 @@ It is used for:
 <li><b> git diff: </b>To figure out what changes you made since the last commit.</li>
 </ul>
 
-<h4> Status in Git: </h4>
+<h3> Status in Git: </h3>
 <ul>
   <li><b>untracked :</b> New file that git doesn't yet track</li>
   <li><b>modified :</b> content of file was changed</li>
@@ -72,3 +72,13 @@ It is used for:
 </ul>
 
 <h3> Working with Git Branches: </h3>
+
+
+<h3>Branch Commands: </h3>
+<ul>
+  <li><b> git branch : </b>To check current branch</li>
+  <li><b> git branch -M main : </b>To rename branch</li>
+  <li><b> git checkout <branch-name> : </b>To navigate</li>
+  <li><b> git checkout -b <new-branch-name> : </b></li>
+  <li><b> git branch -d <branch-name> : </b>To delete branch</li>
+</ul>
