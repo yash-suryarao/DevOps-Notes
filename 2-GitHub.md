@@ -1,7 +1,10 @@
 <h3> What is Git? </h3>
-=> Git is a distributed version control system (DVCS) widely used for tracking changes in source code during software development. It allows multiple developers to work on the same project simultaneously, keeping track of every individual contribution.
+=> Git is a free open source distributed version control system widely used for tracking changes in source code during software development. It allows multiple developers to work on the same project simultaneously, keeping track of every individual contribution. <br>
 
-
+It is used for:
+1. Tracking code changes <br>
+2. Tracking who made changes <br>
+3. Coding collaboration 
 
 
 
