@@ -7,15 +7,24 @@ It is used for:
 3. Coding collaboration 
 
 
-
 <h3> 1. What is GitHub? </h3>
 => GitHub is an online software development platform. It's used for storing, tracking, and collaborating on software projects. It makes it easy for developers to share code files and collaborate with fellow developers on open-source projects. GitHub also serves as a social networking site where developers can openly network, collaborate, and pitch their work.
 
 
+<h3> What does Git do?</h3>
+<ul>
+  <li> Manage projects with <b>Repositories</b </li>
+  <li> <b>Clone</b> a project to work on local device/copy </li>
+  <li> Control and track changes with <b>Staging</b> and <b>Committing</b> </li>
+  <li> <b>Branch</b> and <b>Merge</b> to allow work on different parts and versions of a project </li>
+  <li> <b>Pull</b> the latest version of the project to a local copy </li>
+  <li> <b>Push</b> local updates to the main project </li>
+</ul>
+
 
 <h3> Git Commands: </h3>
 <ul>
-
+<li><b>git --version : </b>To check if Git is properly installed and displays version.</li>
 <li><b>git help : </b>Take help from the Git help section for different commands and other errors.</li>
 <li><b> git config : </b>To set the basic configurations on Git like your name and email.</li>
 <li><b> git config --global user.name "Yash" : </b>Sets configuration values for your name on git.</li>
@@ -37,6 +46,7 @@ It is used for:
 <li><b> git rm: </b>To remove files from working dir.</li>
 <li><b> git rm --cached <file-name>: </b>To remove staged file and make into unstaged.</li>
 <li><b> git diff: </b>To figure out what changes you made since the last commit.</li>
-
-
 </ul>
+
+
+<h3> Working with Git Branches: </h3>
