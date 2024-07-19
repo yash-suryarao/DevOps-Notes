@@ -79,6 +79,6 @@ It is used for:
   <li><b> git branch : </b>To check current branch</li>
   <li><b> git branch -M main : </b>To rename branch</li>
   <li><b> git checkout <branch-name> : </b>To navigate</li>
-  <li><b> git checkout -b <new-branch-name> : </b></li>
+  <li><b> git checkout -b <new-branch-name> : </b>Create new branch whitch directly to that branch</li>
   <li><b> git branch -d <branch-name> : </b>To delete branch</li>
 </ul>
