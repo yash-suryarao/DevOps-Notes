@@ -22,13 +22,15 @@ It is used for:
 </ul>
 
 
-<h3> Git Commands: </h3>
-<ul>
-<li><b>git --version : </b>To check if Git is properly installed and displays version.</li>
 ```console
   git --version
   git version 2.34.1
+
 ```
+<h3> Git Commands: </h3>
+<ul>
+<li><b>git --version : </b>To check if Git is properly installed and displays version.</li>
+
 <li><b>git help : </b>Take help from the Git help section for different commands and other errors.</li>
 
 <li><b> git config : </b>To set the basic configurations on Git like your name and email.</li>
