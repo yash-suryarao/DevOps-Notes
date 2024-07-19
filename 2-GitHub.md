@@ -33,6 +33,8 @@ It is used for:
 
   <br>
 
+<h4>Configuring Git</h4>
+
   <li><b> git config : </b>To set the basic configurations on Git like your name and email.</li>
   <li><b> git config --global user.name "Yash" : </b>Sets configuration values for your name on git.</li>
   <li><b> git config --global user.email yash123@gmail.com : </b>Sets configuration calues for your user email on git.</li>
