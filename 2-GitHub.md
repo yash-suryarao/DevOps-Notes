@@ -32,9 +32,7 @@ It is used for:
   <li><b>git --help : </b>Take help from the Git help section for different commands and other errors.</li>
 
   <br>
-
-<h4>Configuring Git</h4>
-
+  
   <li><b> git config : </b>To set the basic configurations on Git like your name and email.</li>
   <li><b> git config --global user.name "Yash" : </b>Sets configuration values for your name on git.</li>
   <li><b> git config --global user.email yash123@gmail.com : </b>Sets configuration calues for your user email on git.</li>
@@ -54,6 +52,11 @@ It is used for:
   <li><b> git add --all: </b>Add all files of the current directory to the staging area.</li>
 
   <br>
+  
+  <li><b> git rm: </b>To remove files from working dir.</li>
+  <li><b> git rm --cached <file-name>: </b>To remove staged file and make into unstaged.</li>
+
+  <br>
 
   <li><b> git commit -m "message": </b>Saves a snapshot of the staged changes with a descriptive message.</li>
   <li><b> git commit -a -m "message": </b>To add any of our tracked files to the stageing area and commit them by providing a message to remember.</li>
@@ -68,20 +71,16 @@ It is used for:
 
   <br>
 
-<li><b> git remote add origin <link> : </b>Add new remote (GitHub repository)</li>
-<li><b> git remote -v : </b>To verify remote</li>
+  <li><b> git remote add origin <link> : </b>Add new remote (GitHub repository)</li>
+  <li><b> git remote -v : </b>To verify remote</li>
 
   <br>
 
-<li><b> git push origin main : </b>Uploads your local (computer) commits to a remote (GitHub) repository.</li>
-<li><b> git pull : </b>Fetches changes from a remote repository and merges them into your local branch.</li>
-
-<br>
-
-<li><b> git rm: </b>To remove files from working dir.</li>
-<li><b> git rm --cached <file-name>: </b>To remove staged file and make into unstaged.</li>
+  <li><b> git push origin main : </b>Uploads your local (computer) commits to a remote (GitHub) repository.</li>
+  <li><b> git pull : </b>Fetches changes from a remote repository and merges them into your local branch.</li>
 
   <br>
+
 
   <li><b> git diff: </b>To figure out what changes you made since the last commit.</li>
 </ul>
