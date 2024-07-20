@@ -107,9 +107,9 @@ It is used for:
 
 ```console
 
-  <b>git</b> branch
-  * master
-    yash-branch
+[user@localhost]  git branch
+                  * master
+                    yash-branch
 
 ```
 
