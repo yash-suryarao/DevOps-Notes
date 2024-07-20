@@ -104,11 +104,15 @@ It is used for:
 <ul>
   <li><b> git branch : </b>To check current branch</li>
 </ul>
+
 ```console
+
   git branch
   * master
     yash-branch
+
 ```
+
   <li><b> git branch -M main : </b>To rename branch</li>
   <li><b> git checkout <branch-name> : </b>To navigate another branc</li>
   <li><b> git checkout -b <new-branch-name> : </b>Create new branch and switch directly to that branch</li>
