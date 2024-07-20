@@ -94,18 +94,24 @@ It is used for:
 </ul>
 
 <h3> Working with Git Branches: </h3>
-In Git, a <b>branch</b> is a new/separate version of the main repository. <br>
-Branches allow you to work on different parts of a project without impacting the main branch. <br>
-When the work is complete, a branch can be merged wit the main project. <br>
-We can even switch between branches and work on different projects without them interfering with each other. <br>
-Branching in Git is very lightweignt and fast! <br>
+- In Git, a <b>branch</b> is a new/separate version of the main repository. <br>
+- Branches allow you to work on different parts of a project without impacting the main branch. <br>
+- When the work is complete, a branch can be merged wit the main project. <br>
+- We can even switch between branches and work on different projects without them interfering with each other. <br>
+- Branching in Git is very lightweignt and fast! <br>
 
 <h3>Branch Commands: </h3>
 <ul>
   <li><b> git branch : </b>To check current branch</li>
+</ul>
+```console
+  git branch
+  * master
+    yash-branch
+```
   <li><b> git branch -M main : </b>To rename branch</li>
   <li><b> git checkout <branch-name> : </b>To navigate another branc</li>
-  <li><b> git checkout -b <new-branch-name> : </b>Create new branch whitch directly to that branch</li>
+  <li><b> git checkout -b <new-branch-name> : </b>Create new branch and switch directly to that branch</li>
   <li><b> git branch -d <branch-name> : </b>To delete branch</li>
   <li><b> git merge : </b>Combines changes from one branc into another.</li>
 </ul>
