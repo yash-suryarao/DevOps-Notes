@@ -113,9 +113,68 @@ It is used for:
 
 ```
 
-  <li><b> git branch -M main : </b>To rename branch</li>
+<ul>
+  <li><b> git branch -M main : </b>To rename current selected branch</li>
+</ul>
+
+```console
+
+[user@localhost]  git branch -M main
+                  * main
+                    yash-branch
+
+```
+
+<ul>
   <li><b> git checkout <branch-name> : </b>To navigate another branc</li>
+</ul>
+
+```console
+
+[user@localhost]  git checkout yash-branch
+                    main
+                  * yash-branch
+
+```
+<ul>
   <li><b> git checkout -b <new-branch-name> : </b>Create new branch and switch directly to that branch</li>
+</ul>
+
+```console
+
+[user@localhost]  git checkout -b new-branch
+                    main
+                    yash-branch
+                  * new-branch
+
+```
+<ul>
   <li><b> git branch -d <branch-name> : </b>To delete branch</li>
+</ul>
+
+```console
+
+[user@localhost]  git branch -d new-branch
+                  * main
+                    yash-branch
+
+```
+
+<h3> Merge Branches </h3>
+In git, merging branches means combining the changes from one branc into another. This is a fundamental operation in Git workflow, allowing developers to integrate changes made in different branches, such as feature branches, into a main development branch like <b>main</b> or <b>master</b>.
+
+<ul>
   <li><b> git merge : </b>Combines changes from one branc into another.</li>
 </ul>
+
+```console
+
+[user@localhost]  git merge yash-branch
+                    Updating 09f4acd..dfa79db
+                    Fast-forward
+                     index.html | 2 +-
+                     1 file changed, 1 insertion(+), 1 deletion(-)
+
+```
+
+<h3> Merge Conflict </h3>
