@@ -94,7 +94,7 @@ It is used for:
 </ul>
 
 <h3> Working with Git Branches: </h3>
-In Git, a <b color="red">branch</b> is a new/separate version of the main repository. <br>
+In Git, a <b style="color:red">branch</b> is a new/separate version of the main repository. <br>
 Branches allow you to work on different parts of a project without impacting the main branch. <br>
 When the work is complete, a branch can be merged wit the main project. <br>
 We can even switch between branches and work on different projects without them interfering with each other. <br>
