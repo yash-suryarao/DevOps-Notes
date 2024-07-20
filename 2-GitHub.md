@@ -42,11 +42,18 @@ It is used for:
 
   <li><b>git init : </b>Initializes a Git in the current directory.</li>
 
-  <br>
-
+<ul>
   <li><b> git status : </b>To see what's changed since the last commit.</li>
+</ul>
 
-  <br>
+<h4> Status in Git: </h4>
+<ul>
+  <li><b>untracked :</b> New file that git doesn't yet track</li>
+  <li><b>modified :</b> content of file was changed</li>
+  <li><b>staged :</b> Files is ready to be committed</li>
+  <li><b>unmodified :</b> files there is no anything changed</li>
+</ul>
+
 
   <li><b> git add <file-name>: </b>Add new or changed files in your directory to the Git staging area.</li>
   <li><b> git add --all: </b>Add all files of the current directory to the staging area.</li>
@@ -85,13 +92,7 @@ It is used for:
   <li><b> git diff: </b>To figure out what changes you made since the last commit.</li>
 </ul>
 
-<h3> Status in Git: </h3>
-<ul>
-  <li><b>untracked :</b> New file that git doesn't yet track</li>
-  <li><b>modified :</b> content of file was changed</li>
-  <li><b>staged :</b> Files is ready to be committed</li>
-  <li><b>unmodified :</b> files there is no anything changed</li>
-</ul>
+
 
 <h3> Working with Git Branches: </h3>
 - In Git, a <b>branch</b> is a new/separate version of the main repository. <br>
