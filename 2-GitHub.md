@@ -52,7 +52,7 @@ It is used for:
 
 <br>
 
-<li><b> git add <file-name>:</b> Add new or modified files in your repo to the Git staging area.</li>
+<li><b> git add [file-name]:</b> Add new or modified files in your repo to the Git staging area.</li>
 <li><b> git add --all:</b> Add all files of the current directory to the staging area.</li>
   
 <br>
@@ -130,7 +130,7 @@ It is used for:
 
   <br>
 
-  <li><b> git pull : </b>Fetches changes from a remote repository and merges them into your local branch.</li>
+  <li><b> git pull [origin/remote]: </b>Fetches changes from a remote repository and merges them into your local branch.</li>
 
   <br>
 
