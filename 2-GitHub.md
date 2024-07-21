@@ -124,8 +124,6 @@ It is used for:
 <br>
 <h3> Git Push & Pull Command </h3>
 
-  <li><b> git add origin [url]:</b> Add or m</li>
-
   <li><b> git push origin [branch]:</b> Uploads your local (computer) commits to a remote (GitHub) repository.</li>
 
   <br>
@@ -224,3 +222,5 @@ In git, merging branches means combining the changes from one branc into another
 ```
 
 <h3> Merge Conflict </h3>
+
+
