@@ -44,6 +44,7 @@ It is used for:
 
 <li><b> git config --global user.name <"name"> : </b>Sets configuration values for your name on git. <br> Define author name to be used for all commits in current repo. Devs commonly use ---global flag to set config options for current user.</li>
 <li><b> git config --global user.email <"email"> : </b>Sets configuration calues for your user email on git.</li>
+<li><b> git config --global --edit : </b>Open the global configuration file in a text editor for manual editing.</li>
 
 <br>
   
@@ -75,22 +76,28 @@ It is used for:
 </ul>
 
 <br>
+
 <h3> Undoing Changes Git Commands </h3>
 
 <ul>
   <li><b> git revert <commit>:</b> Create new commit that undoes all of the changes made in <commit>, they apply it to the current branch.</li>
 
-  <br>
+<br>
 
   <li><b> git reset <file>: </b>Remove <file> from the staging area, but leave the working directory unchanged. This unstages a file without oerwriting any changes.</li>
-<li><b> git restore --staged <file>: </b>Remove <file> from the staging area.</li>
+  <li><b> git restore --staged <file>: </b>Remove <file> from the staging area.</li>
+
+  <br>
+  
+  <li><b> git rm --cached <file-name>: </b>To remove staged file and make into unstaged.</li>
 
   <br>
 
-  <li><b> git clean -n: </b>Shows which files would be removed from working directory. Use the -f flag in plave of the -n flag to execute the clean.</li>
+  <li><b> git clean -n: </b>Shows which files would be removed from working directory. Use the <b>-f</b> flag in plave of the <b>-n</b> flag to execute the clean.</li>
 
 </ul>
 
+<br>
 
 <h4> Files/Directory Status in Git: </h4>
 <ul>
@@ -100,24 +107,27 @@ It is used for:
   <li><b>unmodified :</b> files there is no anything changed</li>
 </ul>
 
+<br>
 
-
-<ul>  
-  <li><b> git rm: </b>To remove files from working dir.</li>
-</ul>
+<h3> Git Remote Repositories Commands </h3>
 
 <ul>
-  <li><b> git rm --cached <file-name>: </b>To remove staged file and make into unstaged.</li>
+
+  <li><b> git remote add <origin/name> <repo-url> : </b>Create a new connection toa remote repo. After adding a remote, you can use <origin/name> as a shortcut for <url> in other commands.</li>
+  
+  <br>
+  
+  <li><b> git remote -v : </b>To verify remote connection.</li>
+
 </ul>
 
+<br>
+<h3> Git Push & Pull Command </h3>
+
+  <li><b> git push origin <branch> : </b>Uploads your local (computer) commits to a remote (GitHub) repository.</li>
+
   <br>
 
-  <li><b> git remote add origin <link> : </b>Add new remote (GitHub repository)</li>
-  <li><b> git remote -v : </b>To verify remote</li>
-
-  <br>
-
-  <li><b> git push origin main : </b>Uploads your local (computer) commits to a remote (GitHub) repository.</li>
   <li><b> git pull : </b>Fetches changes from a remote repository and merges them into your local branch.</li>
 
   <br>
@@ -132,6 +142,7 @@ It is used for:
 - When the work is complete, a branch can be merged wit the main project. <br>
 - We can even switch between branches and work on different projects without them interfering with each other. <br>
 - Branching in Git is very lightweignt and fast! <br>
+
 
 <h3>Branch Commands: </h3>
 <ul>
