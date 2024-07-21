@@ -27,43 +27,50 @@ It is used for:
 <ul>
   <li><b>git --version : </b>To check if Git is properly installed and displays version.</li>
 
-<br><br>
+<br>
 
 <li><b>git --help : </b>Take help from the Git help section for different commands and other errors. It displays all options use with git.</li>
 
-<br><br>
+<br>
 
 <li><b>git init : </b>Create empty Git repo in specified directory. Run with no arguments to initialize the current directory as a git repository.</li>
 
-<br><br>
+<br>
 
 <li><b> git clone : </b>Creates a copy of an existing repository on your local machine.</li>
 
-<br><br>
+<br>
 
 <li><b> git config --global user.name <"name"> : </b>Sets configuration values for your name on git. <br> Define author name to be used for all commits in current repo. Devs commonly use ---global flag to set config options for current user.</li>
 <li><b> git config --global user.email <"email"> : </b>Sets configuration calues for your user email on git.</li>
 <li><b> git config --list : </b>It displays list of credentials (name & email id) we set.</li>
 
-<br><br>
+<br>
 
 <li><b> git add <file-name>: </b>Add new or modified files in your repo to the Git staging area.</li>
-
-<br><br>
+<li><b> git add --all: </b>Add all files of the current directory to the staging area.</li>
+  
+<br>
 
 <li><b> git commit -m "message": </b>Saves a snapshot of the staged changes with a descriptive message.</li>
 <li><b> git commit -a -m "message": </b>To add any of our tracked files to the stageing area and commit them by providing a message to remember.</li>
 
-<br><br>
+<br>
+
+<li><b> git status : </b>To see what's changed since the last commit. <br> List which files are staged, unstaged and untracked.</li>
+
+<br>
+
+ <li><b> git log : </b>Display the entire commit history using the default format. For customization use additional options.</li>
+
+<br>
+
+<li><b> git diff: </b>Show unstaged cahanges between your index and working directory..</li>
 
 </ul>
 
 
-<ul>
-  <li><b> git status : </b>To see what's changed since the last commit.</li>
-</ul>
-
-<h4> Status in Git: </h4>
+<h4> Files/Directory Status in Git: </h4>
 <ul>
   <li><b>untracked :</b> New file that git doesn't yet track</li>
   <li><b>modified :</b> content of file was changed</li>
@@ -71,13 +78,7 @@ It is used for:
   <li><b>unmodified :</b> files there is no anything changed</li>
 </ul>
 
-<ul>
-  
-</ul>
 
-<ul>
-  <li><b> git add --all: </b>Add all files of the current directory to the staging area.</li>
-</ul>
 
 <ul>  
   <li><b> git rm: </b>To remove files from working dir.</li>
@@ -86,11 +87,6 @@ It is used for:
 <ul>
   <li><b> git rm --cached <file-name>: </b>To remove staged file and make into unstaged.</li>
 </ul>
-
-
-  
-
-  <li><b> git log : </b>To check the history of commits for our reference.</li>
 
   <br>
 
@@ -104,8 +100,6 @@ It is used for:
 
   <br>
 
-
-  <li><b> git diff: </b>To figure out what changes you made since the last commit.</li>
 </ul>
 
 
