@@ -22,36 +22,42 @@ It is used for:
 </ul>
 
 
-<h3> Git Commands: </h3>
+<h3> Git Basics Commands: </h3>
 
 <ul>
   <li><b>git --version : </b>To check if Git is properly installed and displays version.</li>
-</ul>
-  <br>
 
-<ul>
-  <li><b>git --help : </b>Take help from the Git help section for different commands and other errors.</li>
+<br><br>
+
+<li><b>git --help : </b>Take help from the Git help section for different commands and other errors. It displays all options use with git.</li>
+
+<br><br>
+
+<li><b>git init : </b>Create empty Git repo in specified directory. Run with no arguments to initialize the current directory as a git repository.</li>
+
+<br><br>
+
+<li><b> git clone : </b>Creates a copy of an existing repository on your local machine.</li>
+
+<br><br>
+
+<li><b> git config --global user.name <"name"> : </b>Sets configuration values for your name on git. <br> Define author name to be used for all commits in current repo. Devs commonly use ---global flag to set config options for current user.</li>
+<li><b> git config --global user.email <"email"> : </b>Sets configuration calues for your user email on git.</li>
+<li><b> git config --list : </b>It displays list of credentials (name & email id) we set.</li>
+
+<br><br>
+
+<li><b> git add <file-name>: </b>Add new or modified files in your repo to the Git staging area.</li>
+
+<br><br>
+
+<li><b> git commit -m "message": </b>Saves a snapshot of the staged changes with a descriptive message.</li>
+<li><b> git commit -a -m "message": </b>To add any of our tracked files to the stageing area and commit them by providing a message to remember.</li>
+
+<br><br>
+
 </ul>
 
-<ul>
-  <li><b> git config : </b>To set the basic configurations on Git like your name and email.</li>
-</ul>
-
-<ul>
-<li><b> git config --global user.name "Yash" : </b>Sets configuration values for your name on git.</li>
-</ul>
-
-<ul>
-  <li><b> git config --global user.email yash123@gmail.com : </b>Sets configuration calues for your user email on git.</li>
-</ul>
-
-<ul>
-  <li><b> git config --list : </b>It displays list of credentials (name & email id) we set.</li>
-</ul>
-
-<ul>
-  <li><b>git init : </b>Initializes a Git in the current directory.</li>
-</ul>
 
 <ul>
   <li><b> git status : </b>To see what's changed since the last commit.</li>
@@ -66,7 +72,7 @@ It is used for:
 </ul>
 
 <ul>
-  <li><b> git add <file-name>: </b>Add new or changed files in your directory to the Git staging area.</li>
+  
 </ul>
 
 <ul>
@@ -82,14 +88,7 @@ It is used for:
 </ul>
 
 
-  <li><b> git commit -m "message": </b>Saves a snapshot of the staged changes with a descriptive message.</li>
-  <li><b> git commit -a -m "message": </b>To add any of our tracked files to the stageing area and commit them by providing a message to remember.</li>
-
-  <br>
   
-  <li><b> git clone : </b>Creates a copy of an existing repository on your local machine.</li>
-  
-  <br>
 
   <li><b> git log : </b>To check the history of commits for our reference.</li>
 
