@@ -38,7 +38,7 @@ It is used for:
 
 <br>
 
-<li><b> git clone : </b>Creates a copy of an existing repository on your local machine.</li>
+<li><b> git clone <url> : </b>Creates a copy of an existing repository on your local machine.</li>
 
 <br>
 
@@ -80,7 +80,7 @@ It is used for:
 <h3> Undoing Changes Git Commands </h3>
 
 <ul>
-  <li><b> git revert <commit>:</b> Create new commit that undoes all of the changes made in <commit>, they apply it to the current branch.</li>
+  <li><b> git revert <commit-branch>:</b> Create new commit that undoes all of the changes made in <commit>, they apply it to the current branch.</li>
 
 <br>
 
