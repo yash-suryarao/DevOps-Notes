@@ -38,7 +38,7 @@ It is used for:
 
 <br>
 
-<li><b> git clone <url>:</b> Creates a copy of an existing repository on your local machine.</li>
+<li><b> git clone [url]:</b> Creates a copy of an existing repository on your local machine.</li>
 
 <br>
 
