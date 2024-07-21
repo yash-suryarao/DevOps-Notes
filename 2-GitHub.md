@@ -80,7 +80,7 @@ It is used for:
 <h3> Undoing Changes Git Commands </h3>
 
 <ul>
-  <li><b> git revert <commit-branch>:</b> Create new commit that undoes all of the changes made in <commit>, they apply it to the current branch.</li>
+  <li><b> git revert [commit-branch]:</b> Create new commit that undoes all of the changes made in <commit>, they apply it to the current branch.</li>
 
 <br>
 
