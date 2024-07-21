@@ -84,12 +84,12 @@ It is used for:
 
 <br>
 
-  <li><b> git reset <file>: </b>Remove <file> from the staging area, but leave the working directory unchanged. This unstages a file without oerwriting any changes.</li>
-  <li><b> git restore --staged <file>: </b>Remove <file> from the staging area.</li>
+  <li><b> git reset [file]: </b>Remove <file> from the staging area, but leave the working directory unchanged. This unstages a file without oerwriting any changes.</li>
+  <li><b> git restore --staged [file]: </b>Remove <file> from the staging area.</li>
 
   <br>
   
-  <li><b> git rm --cached <file-name>: </b>To remove staged file and make into unstaged.</li>
+  <li><b> git rm --cached [file-name]: </b>To remove staged file and make into unstaged.</li>
 
   <br>
 
@@ -113,7 +113,7 @@ It is used for:
 
 <ul>
 
-  <li><b> git remote add <origin/name> <repo-url> : </b>Create a new connection toa remote repo. After adding a remote, you can use <origin/name> as a shortcut for <url> in other commands.</li>
+  <li><b> git remote add [origin/name] [repo-url] : </b>Create a new connection toa remote repo. After adding a remote, you can use <origin/name> as a shortcut for <url> in other commands.</li>
   
   <br>
   
@@ -124,7 +124,9 @@ It is used for:
 <br>
 <h3> Git Push & Pull Command </h3>
 
-  <li><b> git push origin <branch> : </b>Uploads your local (computer) commits to a remote (GitHub) repository.</li>
+  <li><b> git add origin [url]:</b> Add or m</li>
+
+  <li><b> git push origin [branch]:</b> Uploads your local (computer) commits to a remote (GitHub) repository.</li>
 
   <br>
 
