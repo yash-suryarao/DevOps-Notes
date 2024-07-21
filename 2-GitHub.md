@@ -113,11 +113,13 @@ It is used for:
 
 <ul>
 
-  <li><b> git remote add [origin/name] [repo-url] : </b>Create a new connection toa remote repo. After adding a remote, you can use <origin/name> as a shortcut for <url> in other commands.</li>
+  <li><b> git remote add [origin/name] [repo-url] : </b>Create a new connection to remote repo. After adding a remote, you can use <origin/name> as a shortcut for <url> in other commands.</li>
   
   <br>
   
   <li><b> git remote -v : </b>To verify remote connection.</li>
+
+  <li><b> git remote remove origin : </b>Remove connection to remote repo.</li>
 
 </ul>
 
