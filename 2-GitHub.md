@@ -43,6 +43,9 @@ It is used for:
 
 <li><b> git config --global user.name <"name"> : </b>Sets configuration values for your name on git. <br> Define author name to be used for all commits in current repo. Devs commonly use ---global flag to set config options for current user.</li>
 <li><b> git config --global user.email <"email"> : </b>Sets configuration calues for your user email on git.</li>
+
+<br>
+  
 <li><b> git config --list : </b>It displays list of credentials (name & email id) we set.</li>
 
 <br>
@@ -67,6 +70,13 @@ It is used for:
 
 <li><b> git diff: </b>Show unstaged cahanges between your index and working directory..</li>
 
+</ul>
+
+
+<h4 style="color:blue;"> Undoing Changes Git Commands </h4>
+
+<ul>
+  <li><b> git revert <commit>:</b> Create new commit that undoes all of the changes made in <commit>, they apply it to the current branch.</li>
 </ul>
 
 
