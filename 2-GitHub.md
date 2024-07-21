@@ -21,6 +21,7 @@ It is used for:
   <li> <b>Push</b> local updates to the main project </li>
 </ul>
 
+<br>
 
 <h3> Git Basics Commands: </h3>
 
@@ -65,6 +66,7 @@ It is used for:
 <br>
 
  <li><b> git log : </b>Display the entire commit history using the default format. For customization use additional options.</li>
+ <li><b> git reflog :</b> Show a log of changes to the local repository's HEAD. Add <b>--relative-date</b> flag to show date info or <b>--all</b> to showsall refs.</li>
 
 <br>
 
@@ -72,11 +74,21 @@ It is used for:
 
 </ul>
 
-
-<h4 style="color:blue;"> Undoing Changes Git Commands </h4>
+<br>
+<h3> Undoing Changes Git Commands </h3>
 
 <ul>
   <li><b> git revert <commit>:</b> Create new commit that undoes all of the changes made in <commit>, they apply it to the current branch.</li>
+
+  <br>
+
+  <li><b> git reset <file>: </b>Remove <file> from the staging area, but leave the working directory unchanged. This unstages a file without oerwriting any changes.</li>
+<li><b> git restore --staged <file>: </b>Remove <file> from the staging area.</li>
+
+  <br>
+
+  <li><b> git clean -n: </b>Shows which files would be removed from working directory. Use the -f flag in plave of the -n flag to execute the clean.</li>
+
 </ul>
 
 
