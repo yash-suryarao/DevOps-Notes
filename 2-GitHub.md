@@ -66,8 +66,8 @@ It is used for:
 
 <br>
 
- <li><b> git log:</b> Display the entire commit history using the default format. For customization use additional options.</li>
- <li><b> git reflog:</b> Show a log of changes to the local repository's HEAD. Add <b>--relative-date</b> flag to show date info or <b>--all</b> to showsall refs.</li>
+ <li><b> git log:</b> Display the entire commit history using the default format.</li>
+ <li><b> git reflog:</b> Show a log of changes to the local repository's HEAD. Add <b>--relative-date</b> flag to show date info or <b>--all</b> to showsall refs. (Basically shows changes/history to the local repo by using all the commands.)</li>
 
 <br>
 
