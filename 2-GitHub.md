@@ -1,17 +1,21 @@
-## What is Git?
+## 1. What is Git?
 => Git is a free open source distributed version control system widely used for tracking changes in source code during software development. It allows multiple developers to work on the same project simultaneously, keeping track of every individual contribution. <br><br>
 
-It is used for:
+#### It is used for:
 1. Tracking code changes <br>
 2. Tracking who made changes <br>
 3. Coding collaboration 
 
 
-<h3> 1. What is GitHub? </h3>
+## 2. What is GitHub?
 => GitHub is an online software development platform. It's used for storing, tracking, and collaborating on software projects. It makes it easy for developers to share code files and collaborate with fellow developers on open-source projects. GitHub also serves as a social networking site where developers can openly network, collaborate, and pitch their work.
 
 
-<h3> What does Git do?</h3>
+### What does Git do?
+* AAawdwad
+* adwadaw
+* adaw
+
 <ul>
   <li> Manage projects with <b>Repositories</b </li>
   <li> <b>Clone</b> a project to work on local device/copy </li>
