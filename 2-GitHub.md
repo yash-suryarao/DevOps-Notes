@@ -77,25 +77,25 @@
 ## Git Remote Repositories Commands:
 
 * __git remote add [origin/name] [repo-url]:__ Create a new connection to remote repo. After adding a remote, you can use <origin/name> as a shortcut for <url> in other commands.
-<br>
+
 * __git remote -v:__ To verify remote connection.
-<br>
+
 * __git remote remove origin:__ Remove connection to remote repo.
 
 
 ## Git Push & Pull Command:
 
 * __git push origin [branch]:__ Uploads your local (computer) commits to a remote (GitHub) repository.
-<br>
+
 * __git pull [origin/remote]:__ Fetches changes from a remote repository and merges them into your local branch.
 
 
 ## Working with Git Branches:
-+ In Git, a <b>branch</b> is a new/separate version of the main repository. <br>
-+ Branches allow you to work on different parts of a project without impacting the main branch. <br>
-+ When the work is complete, a branch can be merged wit the main project. <br>
-+ We can even switch between branches and work on different projects without them interfering with each other. <br>
-+ Branching in Git is very lightweignt and fast!
+- In Git, a <b>branch</b> is a new/separate version of the main repository. <br>
+- Branches allow you to work on different parts of a project without impacting the main branch. <br>
+- When the work is complete, a branch can be merged wit the main project. <br>
+- We can even switch between branches and work on different projects without them interfering with each other. <br>
+- Branching in Git is very lightweignt and fast!
 
 
 ## Branch Commands:
