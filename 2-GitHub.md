@@ -43,7 +43,7 @@
 * __git commit -m "message":__ Saves a snapshot of the staged changes with a descriptive message.
 * __git commit -a -m "message":__ To add any of our tracked files to the stageing area and commit them by providing a message to remember.
 
-* __git status:__ To see what's changed since the last commit. <br> List which files are staged, unstaged and untracked.
+* __git status:__ To see what's changed since the last commit. List which files are staged, unstaged and untracked.
 
 * __git log:__ Display the entire commit history using the default format.
 * __git reflog:__ Show a log of changes to the local repository's HEAD. Add __--relative-date__ flag to show date info or __--all__ to showsall refs. (Basically shows changes/history to the local repo by using all the commands.)
@@ -55,16 +55,13 @@
 ## Undoing Changes Git Commands:
 
 * __git revert [commit-branch]:__ Create new commit that undoes all of the changes made in <commit>, they apply it to the current branch.
-
 <br>
 
- * __git reset [file]:__ Remove <file> from the staging area, but leave the working directory unchanged. This unstages a file without oerwriting any changes.</li>
+* __git reset [file]:__ Remove <file> from the staging area, but leave the working directory unchanged. This unstages a file without oerwriting any changes.</li>
 * __git restore --staged [file]:__ Remove <file> from the staging area.
-
   <br>
   
 * __git rm --cached [file-name]:__ To remove staged file and make into unstaged.
-
   <br>
 
 * __git clean -n:__ Shows which files would be removed from working directory. Use the __-f__ flag in plave of the __-n__ flag to execute the clean.
@@ -80,7 +77,7 @@
 ## Git Remote Repositories Commands:
 
 * __git remote add [origin/name] [repo-url]:__ Create a new connection to remote repo. After adding a remote, you can use <origin/name> as a shortcut for <url> in other commands.
-  <br>
+<br>
 * __git remote -v:__ To verify remote connection.
 <br>
 * __git remote remove origin:__ Remove connection to remote repo.
@@ -89,10 +86,8 @@
 ## Git Push & Pull Command:
 
 * __git push origin [branch]:__ Uploads your local (computer) commits to a remote (GitHub) repository.
-
-  <br>
-
-* __git pull [origin/remote]: </b>Fetches changes from a remote repository and merges them into your local branch.
+<br>
+* __git pull [origin/remote]:__ Fetches changes from a remote repository and merges them into your local branch.
 
 
 ## Working with Git Branches:
