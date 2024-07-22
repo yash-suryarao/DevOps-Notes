@@ -27,16 +27,16 @@
 * __git init:__ Create empty Git repo in specified directory. Run with no arguments to initialize the current directory as a git repository.
 
 * __git clone [url]:__ Creates a copy of an existing repository on your local machine.
-
+<br>
 * __git config --global user.name <"name">:__ Sets configuration values for your name on git. <br> Define author name to be used for all commits in current repo. Devs commonly use ---global flag to set config options for current user.
 * __git config --global user.email <"email">:__ Sets configuration calues for your user email on git.
 * __git config --global --edit:__ Open the global configuration file in a text editor for manual editing.
-  
-* __git config --list:__ It displays list of credentials (name & email id) we set.
 
+* __git config --list:__ It displays list of credentials (name & email id) we set.
+<br>
 * __git add [file-name]:__ Add new or modified files in your repo to the Git staging area.
 * __git add --all:__ Add all files of the current directory to the staging area.
-
+<br>
 * __git commit -m "message":__ Saves a snapshot of the staged changes with a descriptive message.
 * __git commit -a -m "message":__ To add any of our tracked files to the stageing area and commit them by providing a message to remember.
 
