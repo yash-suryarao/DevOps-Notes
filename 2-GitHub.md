@@ -87,6 +87,8 @@
 
 * __git push origin [branch]:__ Uploads your local (computer) commits to a remote (GitHub) repository.
 
+* __git push -u origin [branch]:__ __-u__ means to set upstream, if we working in same branch for long time so we can set shortcut for pushing updates in that branch we dont need to type origin main again and again.
+
 * __git pull [origin/remote]:__ Fetches changes from a remote repository and merges them into your local branch.
 
 
