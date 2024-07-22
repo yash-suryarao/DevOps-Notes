@@ -1,5 +1,5 @@
 ## 1. What is Git?
-=> Git is a free open source distributed version control system widely used for tracking changes in source code during software development. It allows multiple developers to work on the same project simultaneously, keeping track of every individual contribution. <br>
+=> Git is a free open source distributed __version control system__ widely used for tracking changes in source code during software development. It allows multiple developers to work on the same project simultaneously, keeping track of every individual contribution. <br>
 
 ### It is used for:
 1. Tracking code changes <br>
