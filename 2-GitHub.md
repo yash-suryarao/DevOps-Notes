@@ -22,8 +22,6 @@
 
 * __git --version:__ To check if Git is properly installed and displays version.
 
-<br>
-
 * __git --help:__ Take help from the Git help section for different commands and other errors. It displays all options use with git.
 
 <br>
