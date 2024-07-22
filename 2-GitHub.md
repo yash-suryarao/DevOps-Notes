@@ -1,4 +1,4 @@
-<h3> What is Git? </h3>
+<h3 color="green"> What is Git? </h3>
 => Git is a free open source distributed version control system widely used for tracking changes in source code during software development. It allows multiple developers to work on the same project simultaneously, keeping track of every individual contribution. <br><br>
 
 It is used for:
