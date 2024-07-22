@@ -1,7 +1,7 @@
 ## 1. What is Git?
-=> Git is a free open source distributed version control system widely used for tracking changes in source code during software development. It allows multiple developers to work on the same project simultaneously, keeping track of every individual contribution. <br><br>
+=> Git is a free open source distributed version control system widely used for tracking changes in source code during software development. It allows multiple developers to work on the same project simultaneously, keeping track of every individual contribution. <br>
 
-#### It is used for:
+### It is used for:
 1. Tracking code changes <br>
 2. Tracking who made changes <br>
 3. Coding collaboration 
@@ -10,78 +10,69 @@
 ## 2. What is GitHub?
 => GitHub is an online software development platform. It's used for storing, tracking, and collaborating on software projects. It makes it easy for developers to share code files and collaborate with fellow developers on open-source projects. GitHub also serves as a social networking site where developers can openly network, collaborate, and pitch their work.
 
-
 ### What does Git do?
-* AAawdwad
-* adwadaw
-* adaw
-
-<ul>
-  <li> Manage projects with <b>Repositories</b </li>
-  <li> <b>Clone</b> a project to work on local device/copy </li>
-  <li> Control and track changes with <b>Staging</b> and <b>Committing</b> </li>
-  <li> <b>Branch</b> and <b>Merge</b> to allow work on different parts and versions of a project </li>
-  <li> <b>Pull</b> the latest version of the project to a local copy </li>
-  <li> <b>Push</b> local updates to the main project </li>
-</ul>
+* Manage projects with <b>Repositories</b>.
+* <b>Clone</b> a project to work on local device/copy.
+* Control and track changes with <b>Staging</b> and <b>Committing.</b>
+* <b>Branch</b> and <b>Merge</b> to allow work on different parts and versions of a project.
+* <b>Pull</b> the latest version of the project to a local copy.
+* <b>Push</b> local updates to the main project.
 
 <br>
 
-<h3> Git Basics Commands:</h3>
+## Git Basics Commands:
 
-<ul>
-  <li><b>git --version:</b>To check if Git is properly installed and displays version.</li>
-
-<br>
-
-<li><b>git --help:</b> Take help from the Git help section for different commands and other errors. It displays all options use with git.</li>
+* <b>git --version:</b>To check if Git is properly installed and displays version.
 
 <br>
 
-<li><b>git init:</b> Create empty Git repo in specified directory. Run with no arguments to initialize the current directory as a git repository.</li>
+* <b>git --help:</b> Take help from the Git help section for different commands and other errors. It displays all options use with git.
 
 <br>
 
-<li><b> git clone [url]:</b> Creates a copy of an existing repository on your local machine.</li>
+* <b>git init:</b> Create empty Git repo in specified directory. Run with no arguments to initialize the current directory as a git repository.
 
 <br>
 
-<li><b> git config --global user.name <"name">:</b> Sets configuration values for your name on git. <br> Define author name to be used for all commits in current repo. Devs commonly use ---global flag to set config options for current user.</li>
-<li><b> git config --global user.email <"email">:</b> Sets configuration calues for your user email on git.</li>
-<li><b> git config --global --edit:</b> Open the global configuration file in a text editor for manual editing.</li>
+* <b> git clone [url]:</b> Creates a copy of an existing repository on your local machine.
+
+<br>
+
+* <b> git config --global user.name <"name">:</b> Sets configuration values for your name on git. <br> Define author name to be used for all commits in current repo. Devs commonly use ---global flag to set config options for current user.
+* <b> git config --global user.email <"email">:</b> Sets configuration calues for your user email on git.
+* <b> git config --global --edit:</b> Open the global configuration file in a text editor for manual editing.
 
 <br>
   
-<li><b> git config --list:</b> It displays list of credentials (name & email id) we set.</li>
+* <b> git config --list:</b> It displays list of credentials (name & email id) we set.
 
 <br>
 
-<li><b> git add [file-name]:</b> Add new or modified files in your repo to the Git staging area.</li>
-<li><b> git add --all:</b> Add all files of the current directory to the staging area.</li>
+* <b> git add [file-name]:</b> Add new or modified files in your repo to the Git staging area.
+* <b> git add --all:</b> Add all files of the current directory to the staging area.
   
 <br>
 
-<li><b> git commit -m "message":</b> Saves a snapshot of the staged changes with a descriptive message.</li>
-<li><b> git commit -a -m "message":</b> To add any of our tracked files to the stageing area and commit them by providing a message to remember.</li>
+* <b> git commit -m "message":</b> Saves a snapshot of the staged changes with a descriptive message.
+* <b> git commit -a -m "message":</b> To add any of our tracked files to the stageing area and commit them by providing a message to remember.
 
 <br>
 
-<li><b> git status:</b> To see what's changed since the last commit. <br> List which files are staged, unstaged and untracked.</li>
+* <b> git status:</b> To see what's changed since the last commit. <br> List which files are staged, unstaged and untracked.
 
 <br>
 
- <li><b> git log:</b> Display the entire commit history using the default format.</li>
- <li><b> git reflog:</b> Show a log of changes to the local repository's HEAD. Add <b>--relative-date</b> flag to show date info or <b>--all</b> to showsall refs. (Basically shows changes/history to the local repo by using all the commands.)</li>
+* <b> git log:</b> Display the entire commit history using the default format.
+* <b> git reflog:</b> Show a log of changes to the local repository's HEAD. Add <b>--relative-date</b> flag to show date info or <b>--all</b> to showsall refs. (Basically shows changes/history to the local repo by using all the commands.)
 
 <br>
 
-<li><b> git diff:</b> Show unstaged cahanges between your index and working directory..</li>
+* <b> git diff:</b> Show unstaged cahanges between your index and working directory..
 
-</ul>
 
 <br>
 
-<h3> Undoing Changes Git Commands </h3>
+## Undoing Changes Git Commands:
 
 <ul>
   <li><b> git revert [commit-branch]:</b> Create new commit that undoes all of the changes made in <commit>, they apply it to the current branch.</li>
