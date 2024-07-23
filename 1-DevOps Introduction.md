@@ -55,7 +55,7 @@ __1. increase productivity:__
 =>
 * __Monolithic Architecture:-__
 Monolitic arcitecture is a traditional approach to designing software where an entire application is built as one large system and is usually one code-base. In this architecture, all the different components of the application, such as the user interface, business logic, and data access layer, are tightly integrated and deployed together. It extremely difficult to change technology or language or framework because everything is tightly coupled and depend on each other.
-<br><br>
+<br>
 * __Microlithic/Microservices Architecture:-__
 Microservices architecture is built as small independent module based on business functionality. In microservices application, each project and services are independent from each other at the code level. Therefore it is easy to  configure and deploy completely and also easy to scale based on demand. <br>
   - Each service is responsible for a single functionality or feature of the application and can be developed, deployed, and scaled independently. <br>
@@ -105,15 +105,15 @@ Microservices architecture is built as small independent module based on busines
 ## Q) Difference between Statefull and Stateless application?
 =>
 __Stateful applications:-__
-Stateful applications save session/client data on the server, which can provide faster processing and imoroved performance. However, they require more memory and processing power to maintain session information, and can be more difficult to develop and maintain. <br>
-__For example,__ <br>
+Stateful applications save session/client data on the server, which can provide faster processing and imoroved performance. However, they require more memory and processing power to maintain session information, and can be more difficult to develop and maintain.
+__For example,__
 - Online shoping carts:- Kepp track of what you put in them. <br>
 - Banking systems:- Keep track of account information.<br>
 - Social media sites: Display information based on a user's preferences.
 <br><br>
 __Stateless applications:-__
-Stateless applications don't save session data on the server, and instead rely on external entities like databases or cache to manage state. This can make them simpler to develop and maintain, and they often use fewer resources. <br>
-<b>For example,</b> <br>
+Stateless applications don't save session data on the server, and instead rely on external entities like databases or cache to manage state. This can make them simpler to develop and maintain, and they often use fewer resources.
+__For example,__ <br>
 - File Transfer applications
 - Downloading
 
@@ -137,17 +137,17 @@ Stateless applications don't save session data on the server, and instead rely o
     <td>  </td>
   </tr>
   <tr>
-    <td> 1 </td>
+    <td> 3 </td>
     <td>  </td>
     <td>  </td>
   </tr>
   <tr>
-    <td> 1 </td>
+    <td> 4 </td>
     <td>  </td>
     <td>  </td>
   </tr>
   <tr>
-    <td> 1 </td>
+    <td> 5 </td>
     <td>  </td>
     <td>  </td>
   </tr> 
