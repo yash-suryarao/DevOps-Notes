@@ -1,4 +1,5 @@
 ## What is CICD
+CI/CD stands for continuous integration and continuous delivery/deployment. It's a software development practice that automates the software release lifecycle to streamline and speed up the process. CI/CD is a key part of DevOps methodology, which aims to improve collaboration between development and operations teams. 
 
 ## Continious Integration
 Continious integration is software development process in CICD pipeline where the members are going to integrate their work or push their code on central repository systems where their code or their work going to be checked automatically.
