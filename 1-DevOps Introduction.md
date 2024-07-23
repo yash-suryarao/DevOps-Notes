@@ -58,9 +58,9 @@ Monolitic arcitecture is a traditional approach to designing software where an e
 <br><br>
 * __Microlithic/Microservices Architecture:-__
 Microservices architecture is built as small independent module based on business functionality. In microservices application, each project and services are independent from each other at the code level. Therefore it is easy to  configure and deploy completely and also easy to scale based on demand. <br>
-- Each service is responsible for a single functionality or feature of the application and can be developed, deployed, and scaled independently. <br>
-- The Microservice architecture has a significant impact on the relationship between the application and the database. <br>
-- Instead of sharing a single database with other microservices, each microservice has its own database. It often results in duplication of some data, but having a database per microservice is essential if you want to benefit from this architecture, as it ensures loose coupling.
+  - Each service is responsible for a single functionality or feature of the application and can be developed, deployed, and scaled independently. <br>
+  - The Microservice architecture has a significant impact on the relationship between the application and the database. <br>
+  - Instead of sharing a single database with other microservices, each microservice has its own database. It often results in duplication of some data, but having a database per microservice is essential if you want to benefit from this architecture, as it ensures loose coupling.
 
 <table>
   <tr>
