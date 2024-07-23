@@ -105,14 +105,14 @@ Microservices architecture is built as small independent module based on busines
 ## Q) Difference between Statefull and Stateless application?
 =>
 __Stateful applications:-__
-Stateful applications save session/client data on the server, which can provide faster processing and imoroved performance. However, they require more memory and processing power to maintain session information, and can be more difficult to develop and maintain.
-__For example,__
+Stateful applications save session/client data on the server, which can provide faster processing and imoroved performance. However, they require more memory and processing power to maintain session information, and can be more difficult to develop and maintain.<br>
+__For example,__ <br>
 - Online shoping carts:- Kepp track of what you put in them. <br>
 - Banking systems:- Keep track of account information.<br>
 - Social media sites: Display information based on a user's preferences.
-<br><br>
+<br>
 __Stateless applications:-__
-Stateless applications don't save session data on the server, and instead rely on external entities like databases or cache to manage state. This can make them simpler to develop and maintain, and they often use fewer resources.
+Stateless applications don't save session data on the server, and instead rely on external entities like databases or cache to manage state. This can make them simpler to develop and maintain, and they often use fewer resources.<br>
 __For example,__ <br>
 - File Transfer applications
 - Downloading
