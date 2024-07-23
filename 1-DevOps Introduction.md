@@ -1,7 +1,7 @@
-<h3> 1. What is DevOps? </h3>
+## 1. What is DevOps?
 => DevOps is a software development practice that aims to improve collaboration between devlopers and operations teams. The goal is to deliver software faster and more reliavle.
 
-<h3> 2. What does DevOps engineers actually do? </h3>
+## 2. What does DevOps engineers actually do?
 => DevOps simplify software development and deployment by automating tasks through different practices like, <br>
   - CICD using <b>GitLab</b> and <b>GitHub.</b> <br>
   - Creating and managng infrastructure programmatically using <b>Terraform</b> or <b>Ansible.</b> <br>
@@ -11,16 +11,17 @@ And many other practices that ensures reliablity, security, and performance of y
 <br>
 In Short the role of DevOps engineers is to deploy, troubleshoot, and make sure your applications or system are up and working.
 
-<h3> 3. Benefits of DevOps? </h3>
-<b> 1. increase productivity:</b>
-<br><b> 2. Faster delivery:</b>
-<br><b> 3. Better collaboration:</b>
-<br><b> 4. Greater automation:</b> DevOps teams can use automation to speed up tasks like testing, code deployment, and incident management.
-<br><b> 5. Easier maintenance:</b> DevOps can make it easier to maintain exixting deployment.
-<br><b> 6. Decreases load:</b> 
-<br><b> 7. Improved quality:</b> DevOps can help increase reliability and quality.
 
-<h3> 4. DevOps Lifecycle: </h3>
+## 3. Benefits of DevOps?
+__1. increase productivity:__
+<br> __2. Faster delivery:__
+<br> __3. Better collaboration:__
+<br> __4. Greater automation:__ DevOps teams can use automation to speed up tasks like testing, code deployment, and incident management.
+<br> __5. Easier maintenance:__ DevOps can make it easier to maintain exixting deployment.
+<br> __6. Decreases load:__ 
+<br> __7. Improved quality:__ DevOps can help increase reliability and quality.
+
+## 4. DevOps Lifecycle:
 <div>
   <img width=500 height=300 alt="DevOps lifecycle" src="https://miro.medium.com/v2/resize:fit:1024/0*u6zi1ux8N6qDQTha.png">
 </div>
@@ -36,7 +37,7 @@ In Short the role of DevOps engineers is to deploy, troubleshoot, and make sure 
 <br> **8. Monitor:** The DevOps workflow is observed at this level depending on data gathered from consumer behavior, application efficiency, and other sources. The ability to observe the complete surroundings aids teams in identifying bottlenecks affecting the production and operations teams' performance times
 <br>
 
-<h3> 5. DevOps Phases: </h3>
+## 5. DevOps Phases:
 <div>
 <img width=500 height=300 src="https://www.simform.com/wp-content/uploads/2022/01/devops-lifecycle-phases.png">
 </div>
@@ -50,12 +51,12 @@ In Short the role of DevOps engineers is to deploy, troubleshoot, and make sure 
 <br>**7. Continious Operations:**
 
 
-<h3> Q) difference between monolithic architecture and microlithic architecture? </h3>
+## Q) difference between monolithic architecture and microlithic architecture?
 =>
-<b>Monolithic Architecture:-</b>
+* __Monolithic Architecture:-__
 Monolitic arcitecture is a traditional approach to designing software where an entire application is built as one large system and is usually one code-base. In this architecture, all the different components of the application, such as the user interface, business logic, and data access layer, are tightly integrated and deployed together. It extremely difficult to change technology or language or framework because everything is tightly coupled and depend on each other.
 <br><br>
-<b>Microlithic/Microservices Architecture:-</b>
+* __Microlithic/Microservices Architecture:-__
 Microservices architecture is built as small independent module based on business functionality. In microservices application, each project and services are independent from each other at the code level. Therefore it is easy to  configure and deploy completely and also easy to scale based on demand. <br>
 - Each service is responsible for a single functionality or feature of the application and can be developed, deployed, and scaled independently. <br>
 - The Microservice architecture has a significant impact on the relationship between the application and the database. <br>
@@ -99,26 +100,25 @@ Microservices architecture is built as small independent module based on busines
     <td> Easy to change technology or framework because every module and project is independent </td>
   </tr>
 </table>
-<br><br>
 
-<h3> Q) Difference between Statefull and Stateless application?</h3>
+
+## Q) Difference between Statefull and Stateless application?
 =>
-<b>Stateful applications:-</b>
+__Stateful applications:-__
 Stateful applications save session/client data on the server, which can provide faster processing and imoroved performance. However, they require more memory and processing power to maintain session information, and can be more difficult to develop and maintain. <br>
-<b>For example,</b> <br>
+__For example,__ <br>
 - Online shoping carts:- Kepp track of what you put in them. <br>
 - Banking systems:- Keep track of account information.<br>
 - Social media sites: Display information based on a user's preferences.
 <br><br>
-<b>Stateless applications:-</b>
+__Stateless applications:-__
 Stateless applications don't save session data on the server, and instead rely on external entities like databases or cache to manage state. This can make them simpler to develop and maintain, and they often use fewer resources. <br>
 <b>For example,</b> <br>
 - File Transfer applications
 - Downloading
 
-<br><br>
 
-<h3> Q) Difference between CI and CD? </h3>
+## Q) Difference between CI and CD?
 =>
 <table>
   <tr>
@@ -153,11 +153,10 @@ Stateless applications don't save session data on the server, and instead rely o
   </tr> 
 </table>
 
-<br><br>
 
-<h3> Q) Difference between Agile and Waterfall Model? </h3>
+## Q) Difference between Agile and Waterfall Model?
 =>
-<b> Agile Model:- </b>This is flexible, iterative and incremental modle emphasizes collaboration, continuous feedback, and adaptation to changing requirements. In Agile model teams may work on different phases of a project simultaneously, and they focus on delivering small, functional segments quickly. Agile teams also tend to use minimal documentation and informal communication.
+__Agile Model:-__ This is flexible, iterative and incremental modle emphasizes collaboration, continuous feedback, and adaptation to changing requirements. In Agile model teams may work on different phases of a project simultaneously, and they focus on delivering small, functional segments quickly. Agile teams also tend to use minimal documentation and informal communication.
 
 <div>
   <img width=400 height=250 src="https://static.javatpoint.com/difference/images/agile-vs-waterfall-model.png">
@@ -185,7 +184,7 @@ Stateless applications don't save session data on the server, and instead rely o
 </ul>
 
 
-<b> Waterfall Model:- </b>This rigid, sequential model focuses on thorough planning and execution of project phases in order, from requirements gathering to deployment. Waterfall teams must complete each phase before moving on to the next, and they rely heavily on detailed documentation and formal communication.
+__Waterfall Model:-__ This rigid, sequential model focuses on thorough planning and execution of project phases in order, from requirements gathering to deployment. Waterfall teams must complete each phase before moving on to the next, and they rely heavily on detailed documentation and formal communication.
 
 <div>
   <img width=400 height=250 src="https://static.javatpoint.com/difference/images/agile-vs-waterfall-model2.png">
