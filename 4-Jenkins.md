@@ -1,8 +1,7 @@
 <!-- <img width=250 height=80 src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Jenkins_logo_with_title.svg/2560px-Jenkins_logo_with_title.svg.png"> -->
 
 ## What is Jenkins?
-Jenkins is a open-source automation server written in __JAVA__ that facilitates __Continious Integration and Continious Deployment/Delivery(CI/CD)__ 
-...................0000000000in software development. It automates the parts of software development related to building, testing, and deploying, allowing developers to focus on writing code and improving their applications.
+Jenkins is a open-source automation server written in __JAVA__ that facilitates __Continious Integration and Continious Deployment/Delivery(CI/CD)__ in software development. It automates the parts of software development related to building, testing, and deploying, allowing developers to focus on writing code and improving their applications.
 
 ## Why Jenkins
 Jenkins is used to build and test your software projects continuously make it easier for developers to integrate changes to the project, and make it easier for users to obtain a fresh build. It provides many plugins that help to support building, deploying and automating any project.
