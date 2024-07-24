@@ -2,18 +2,18 @@
 __CI/CD__ stands for __Continuous Integration and Continuous Delivery/Deployment.__ It's a software development practice that automates the software release lifecycle to streamline and speed up the process. CI/CD is a key part of DevOps methodology, which aims to improve collaboration between development and operations teams. 
 
 ## Continious Integration
-Continious integration is software development process in CICD pipeline where the members are going to integrate their work or push their code on central repository systems where their code or their work going to be checked automatically (Tested).
+Continious integration is software development process in CICD pipeline where the members/developers are going to integrate their work or push their code on central repository systems where their code or their work going to be checked automatically (Tested).
 <br><br>
 [Continious Integration is a process in CI/CD pipeline where the developes are going to integrate/push their code on the center repository systems (GitHub) where their code is going to be checked automatically tested out.]
 <br>
 
-__Build ➡️(Auto)➡️ Unit Tests ➡️(Auto)➡️ Deploy to stage ➡️(Auto)➡️ Acceptance Tests__
+__Build__ ➡️(Auto)➡️ __Unit Tests__ ➡️(Auto)➡️ __Deploy to stage__ ➡️(Auto)➡️ __Acceptance Tests__
 
 <img src="https://www.devopsschool.com/blog/wp-content/uploads/2020/05/CI-Process.png">
 
 
 ## Continious Delivery
-Continious delivery is a software development practice where you compile the code that you got from the repository and you create the build, test it out and be readily to deployed. Continious delivery is that the process of making sure the software is ready and it can be released anytime you want.
+Continious delivery is a software development practice where we compile the code that got from the repository and then create the build, test it out and be readily to deployed. Continious delivery is that the process of making sure the software is ready and it can be released anytime you want.
 
 <img src="https://d274cmdd0goq94.cloudfront.net/wp-content/uploads/2020/12/qZ05Wx59htDXZgorhm29BWVT8KfUQDrwOIkX8tin.jpeg">
 
