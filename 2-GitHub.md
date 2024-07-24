@@ -8,7 +8,7 @@
 
 
 ## 2. What is GitHub?
-=> GitHub is an online software development platform. It's used for storing, tracking, and collaborating on software projects. It makes it easy for developers to share code files and collaborate with fellow developers on open-source projects. GitHub also serves as a social networking site where developers can openly network, collaborate, and pitch their work.
+=> GitHub is an online software development platform. It's used for storing, tracking, and collaborating on software projects. It makes easy for developers to share code files and collaborate with fellow developers on open-source projects. GitHub also serves as a social networking site where developers can openly network, collaborate, and pitch their work.
 
 ### What does Git do?
 * Manage projects with __Repositories.__
