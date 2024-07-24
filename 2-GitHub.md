@@ -18,8 +18,8 @@
 * __Pull__ the latest version of the project to a local copy.
 * __Push__ local updates to the main project.
 
-## Git Basics Commands:
-
+## Git Basics Commands: 
+🔗[commands cheet sheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
 * __git --version:__ To check if Git is properly installed and displays version.
 
 * __git --help:__ Take help from the Git help section for different commands and other errors. It displays all options use with git.
