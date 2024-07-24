@@ -2,7 +2,7 @@
 __CI/CD__ stands for __Continuous Integration and Continuous Delivery/Deployment.__ It's a software development practice that automates the software release lifecycle to streamline and speed up the process. CI/CD is a key part of DevOps methodology, which aims to improve collaboration between development and operations teams. 
 
 ## Continious Integration
-Continious integration is software development process in CICD pipeline where the members are going to integrate their work or push their code on central repository systems where their code or their work going to be checked automatically (Testing).
+Continious integration is software development process in CICD pipeline where the members are going to integrate their work or push their code on central repository systems where their code or their work going to be checked automatically (Tested).
 <br><br>
 [Continious Integration is a process in CI/CD pipeline where the developes are going to integrate/push their code on the center repository systems (GitHub) where their code is going to be checked automatically tested out.]
 <br>
