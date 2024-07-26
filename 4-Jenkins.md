@@ -1,6 +1,6 @@
 <!-- <img width=250 height=80 src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Jenkins_logo_with_title.svg/2560px-Jenkins_logo_with_title.svg.png"> -->
 
-## What is Jenkins?
+## What is [Jenkins](https://medium.com/cloud-native-daily/jenkins-tutorial-basics-to-advanced-for-devops-engineer-27265e5ae67d)?
 Jenkins is a open-source automation server written in __JAVA__ that facilitates __Continious Integration and Continious Deployment/Delivery(CI/CD)__ in software development. It automates the parts of software development related to building, testing, and deploying, allowing developers to focus on writing code and improving their applications. <br>
 
 ## Why Jenkins
