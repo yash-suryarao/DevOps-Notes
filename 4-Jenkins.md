@@ -13,11 +13,17 @@ __3. Distributed Builds:__ Jenkins can easily distribute work across multiple ma
 __4. Pipeline as Code:__ Jenkins uses a feature called Jenkins Pipeline, which allows developers to define their build, test, and deployment processes as code. This is usually done using a domain-specific language (DSL) based on Groovy. <br>
 __5. Extensive Customization:__ Jenkins allows for extensive customization through its flexible configuration options and its support for scripting and custom plugins. <br>
 
+## Why we used Jenkins?
+__1. Continious Integration (CI):__ Jenkins facilitates continuous integration by automatically building and testing software whenever changes are made to the codebase. It helps identify issues and conflicts early in the development process, leading to faster feedback and easier bug resolution.
+__2. Automated Testing:__ Jenkins allows the integration of automated testing frameworks into the build process. It can execute unit tests, integration tests, and other types of tests to ensure that the software functions as expected and meets the defined quality criteria.
+__3. Continious Delivery/Deployment (CD):__ Jenkins enables continuous delivery and deployment by automating the steps involved in packaging, deploying, and releasing software. It streamlines the release process, reduces human error, and allows for frequent and reliable software deployments.
+__4. Build and Release Management:__ Jenkins provides a centralized platform for managing build configurations, artifacts, and release versions. It tracks changes, manages dependencies, and ensures consistency across different builds and environments.
+__5. Scalability and Flexibility:__ Jenkins is highly scalable and can support projects of various sizes and complexities. It can handle multiple builds concurrently and distribute work across multiple nodes for faster execution. Jenkins also offers extensive plugin support, allowing integration with a wide range of tools and technologies.
+__6. Open Source and Cost-Effective:__  Jenkins is an open-source tool, it is freely available for use and can be customized as per project requirements. This makes it a cost-effective choice compared to commercial alternatives.
+
+
 ## Jenkins Workflow
 <img src="https://user-images.githubusercontent.com/69889600/214857610-4fc3e64c-a262-4a6b-9e4d-b5b4eed057c6.png">
-
-## Continious Integration (CI)
-
 
 ## How Jenkins Works
 __1. Source Code Integration:__ Jenkins integrates with source control systems (Git) to pull code changes. <br>
@@ -44,4 +50,11 @@ __3. Faster Release Cycles:__
 ## Jenkins Master-Slave Architecture
 
 <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/jenkins-master-slave-architecture.jpg">
+Jenkins follows Master-slave architecture to manage distributed builds. In this arcitecture, slave and master communicate through TCP/IP protocol.
 
+
+## What is pipeline?
+
+
+## Whata are plugins?
+In __Jenkins__ plugins are small, independent program that can enhance the functionality of jenkins automation server to meet the need of specific user or organizations. They are used to enhance and customize Jenkins to support build, test, and deployment scenarios. Jenkins has vast ecosystem of plugins that provides integration with different tools, technologies, and services.
