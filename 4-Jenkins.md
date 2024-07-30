@@ -23,7 +23,7 @@ __6. Open Source and Cost-Effective:__  Jenkins is an open-source tool, it is fr
 
 
 ## Jenkins Workflow
-<img src="https://user-images.githubusercontent.com/69889600/214857610-4fc3e64c-a262-4a6b-9e4d-b5b4eed057c6.png">
+<img width=800 height=250 src="https://user-images.githubusercontent.com/69889600/214857610-4fc3e64c-a262-4a6b-9e4d-b5b4eed057c6.png">
 
 ## How Jenkins Works
 __1. Source Code Integration:__ Jenkins integrates with source control systems (Git) to pull code changes. <br>
@@ -53,8 +53,117 @@ __3. Faster Release Cycles:__
 Jenkins follows Master-slave architecture to manage distributed builds. In this arcitecture, slave and master communicate through TCP/IP protocol.
 
 
-## What is pipeline?
+## What is jenkins pipeline?
+Jenkins pipelines is a collection of plugins that supports implementing and integrating continious integration and delivery pipelines into jenkins. A pipeline automated steps or stages required to build, test and depliver applications. Jenkins pipeline written in Declaritive and Scripted syntax. <br>
+Jenkins pipelines are written using a domain-specific language called groovy which allows you to define complex workflows and automate any task in your software development process.
 
+A pipeline typically consists of multiple stages, each representing a distinct phase in the software delivery process. These __stages__ can include: 
+
+__1. Checkout:__ This stage involves retrieving the latest version of the source code from the version control system (such as Git) to begin the pipeline process. <br>
+__2. Build:__ In this stage, the source code is compiled and built into executable artifacts or packages. It involves tasks like compiling code, resolving dependencies, and generating build artifacts.<br>
+__3. Test:__ The test stage executes various types of tests, including unit tests, integration tests, and other automated tests, to ensure the software functions correctly and meets the specified quality criteria.<br>
+__4. Static Code Analysis:__ This stage involves analyzing the codebase for potential issues, code style violations, security vulnerabilities, and other code quality concerns. Static code analysis tools are used to perform this analysis.<br>
+__5. Deployment:__ The deployment stage involves deploying the built artifacts to the desired environment, such as staging or production. It may include tasks like configuring servers, setting up databases, and deploying the application or infrastructure.<br>
+__6. Release:__ This stage handles the final steps required to release the software, such as generating release notes, updating version numbers, and notifying stakeholders about the new release.
+
+## Declarative VS Scripted pipeline Syntax
+### Declarative pipeline: 
+Declarative Pipeline syntax in Jenkins is a more structured and simplified way of defining pipelines than the scripted pipeline syntax. It's based on the Groovy programming language, but uses a Groovy-based Domain-Specific Language (DSL) for pipeline configuration.
+
+For Example:
+``` console
+pipeline {
+    agent any
+    stages {
+        stage('Build') {
+            steps {
+                // Build the application
+                sh 'mvn clean install'
+            }
+        }
+        stage('Test') {
+            steps {
+                // Run the tests
+                sh 'mvn test'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                // Deploy the application
+                sh 'deploy.sh'
+            }
+        }
+    }
+}
+
+```
+
+### Scripted pipeline:
+Scripted Jenkins pipeline syntax runs on the Jenkins master with the help of a lightweight executor, and it is based on Groovy scripting language. In Scripted Pipeline, the entire workflow is defined in a single file called a Jenkinsfile. The Jenkinsfile is written in Groovy and is executed by the Jenkins Pipeline plugin. Scripted Pipeline provides a lot of flexibility and control over the workflow, but it can be more complex and verbose than Declarative Pipeline.
+
+For Example:
+``` console
+node {
+    stage('Build') {
+        // Build the application
+        sh 'mvn clean install'
+    }
+    stage('Test') {
+        // Run the tests
+        sh 'mvn test'
+    }
+    stage('Deploy') {
+        // Deploy the application
+        sh 'deploy.sh'
+    }
+}
+```
+
+<table>
+<tr>
+  <th> Scripted Pipeline </th>
+  <th> Declarative Pipeline </th>
+</tr>
+<tr>
+  <td> Scripted pipeline is based on Groovy scrpiting language </td>
+  <td> Declarative pipeline is also based on Groovy, but it used a more structured and predefined format. </td>
+</tr>
+<tr>
+  <td> Provides more flexibility and control over the pipeline wotkflow </td>
+  <td> Declarative pipeline provides a flexibility and more structured syntax </td>
+</tr>
+<tr>
+  <td> Scripted pipeline allows for more gragular error handling and recovery mechanisms. </td>
+  <td> Declarative pipeline a simpler error handling mechanism that is more intuitive and easier to understand. </td>
+</tr>
+<tr>
+  <td> Scripted Pipeline allows for more code reuse and modularity. </td>
+  <td> Declarative Pipeline is designed to be more self-contained and less reliant on external scripts and libraries. </td>
+</tr>
+<tr>
+  <td> Scripted Pipeline can be more complex and verbose. </td>
+  <td> While Declarative Pipeline is designed to be more readable and easier to understand. </td>
+</tr>
+</table>
+
+
+
+## Pipeline concepts
+### Pipeline:- 
+A pipeline is a user-defined model of Continioud delivery pipeline. A pipeline's code defines entire build process, wich typically includes stages for building an application, testing it and then delivring it.
+
+Also, a __pipeline__ block is a key part of __Declarative Pipeline syntax.__
+
+### Node:-
+A node is a machine which is part of the Jenkins environment and is capable of executing a Pipeline.
+
+Also, a __node__ block is a key part of __Scripted Pipeline syntax.__
+
+### Stage:-
+A __stage__ block defines a conceptually distinct subset of tasks performed through the entire Pipeline (e.g. "Build", "Test" and "Deploy" stages), which is used by many plugins to visualize or present Jenkins Pipeline status/progress.
+
+### Steps:-
+A single task. Fundamentally, a step tells Jenkins what to do at a particular point in time (or "step" in the process). For example, to execute the shell command make, use the sh step: sh 'make'. When a plugin extends the Pipeline DSL, [1] that typically means the plugin has implemented a new step.
 
 ## Whata are plugins?
 In __Jenkins__ plugins are small, independent program that can enhance the functionality of jenkins automation server to meet the need of specific user or organizations. They are used to enhance and customize Jenkins to support build, test, and deployment scenarios. Jenkins has vast ecosystem of plugins that provides integration with different tools, technologies, and services.
