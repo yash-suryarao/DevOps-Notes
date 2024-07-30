@@ -149,21 +149,19 @@ node {
 
 
 ## Pipeline concepts
-### Pipeline:- 
-A pipeline is a user-defined model of Continioud delivery pipeline. A pipeline's code defines entire build process, wich typically includes stages for building an application, testing it and then delivring it.
+
+* __Pipeline:-__ A pipeline is a user-defined block of Continious delivery pipeline, which contains all the processes such as build, test, deploy, etc. it is a group of all the stages in a JenkinsFile. All the stages and steps are defined in this block. It is used in declarative pipeline syntax.
 
 Also, a __pipeline__ block is a key part of __Declarative Pipeline syntax.__
 
-### Node:-
-A node is a machine which is part of the Jenkins environment and is capable of executing a Pipeline.
+* __Node:-__ A node is a machine which is part of the Jenkins environment and is capable of executing a Pipeline.
 
 Also, a __node__ block is a key part of __Scripted Pipeline syntax.__
 
-### Stage:-
-A __stage__ block defines a conceptually distinct subset of tasks performed through the entire Pipeline (e.g. "Build", "Test" and "Deploy" stages), which is used by many plugins to visualize or present Jenkins Pipeline status/progress.
+* __Stage:-__ A __stage__ block defines a conceptually distinct subset of tasks performed through the entire Pipeline (e.g. "Build", "Test" and "Deploy" stages), which is used by many plugins to visualize or present Jenkins Pipeline status/progress.
 
-### Steps:-
-A single task. Fundamentally, a step tells Jenkins what to do at a particular point in time (or "step" in the process). For example, to execute the shell command make, use the sh step: sh 'make'. When a plugin extends the Pipeline DSL, [1] that typically means the plugin has implemented a new step.
+* __Steps:-__ A single task. Fundamentally, a step tells Jenkins what to do at a particular point in time (or "step" in the process). For example, to execute the shell command make, use the sh step: sh 'make'. When a plugin extends the Pipeline DSL, [1] that typically means the plugin has implemented a new step.
+
 
 ## Whata are plugins?
 In __Jenkins__ plugins are small, independent program that can enhance the functionality of jenkins automation server to meet the need of specific user or organizations. They are used to enhance and customize Jenkins to support build, test, and deployment scenarios. Jenkins has vast ecosystem of plugins that provides integration with different tools, technologies, and services.
