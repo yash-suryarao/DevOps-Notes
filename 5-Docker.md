@@ -234,3 +234,16 @@ OR
 > docker logs container_id
 ```
 
+* __docker pause:__ Pause a running container.
+```console
+#Example
+
+> docker pause container_name_or_id
+```
+
+* __docker unpause:__ Unpause a paused container.
+```console
+#Example
+
+> docker unpause container_name_or_id
+```
