@@ -65,6 +65,172 @@ Docker uses a __client-server architecture__ to manage and run containers. The _
 * Docker images can be stored and shared through Docker registries.
 * A Docker registry is a repository for Docker images, and it can be public (like Docker Hub) or private.
 
-## 4. Docker Hub:
+### 4. Docker Hub:
 * Docker Hub is a cloud-based registry service provided by Docker, where users can find, share, and store Docker images.
 * It serves as a central repository for Docker images. 
+
+
+
+
+##  Docker Commands
+
+__1. Image Commands:__
+* __docker pull image_name:tag :__ Pull an image from a registry (Docker hub).
+```console
+#Example
+
+> docker pull nginx:latest
+```
+
+* __docker build -t image_name path-to-dockerfile :__ Build an image from a Dockerfile.
+```console
+#Example
+
+> docker build -t myapp .
+```
+
+* __docker push image_name:tag :__
+```console
+#Example
+
+> docker push myapp:v1
+```
+
+* __docker images :__ List all images on the local machine
+```console
+#Example
+
+> docker images
+```
+
+* __docker image inspect image_name:tag :__ Inspect details of an image.
+```console
+#Example
+
+> docker images inspect myapp:v1
+```
+
+* __docker save -o image_name.tar image_name:tag :__ Save an image to a tar archive
+```console
+#Example
+
+> docker save -o myapp.tar myapp:v1
+```
+
+
+* __docker rmi image_name:tag :__ Remove an image
+* __docker rm [image_name/image_id]__
+```console
+#Example
+
+> docker rmi myapp
+
+OR
+
+> docker rm fd48f19954f
+```
+
+* __Tag  an Image:__ Tags an image with a different name, providing a way to reference the same image under different names.
+```console
+#Example
+
+> docker tag myapp:latest myapp:v1
+```
+
+* __Remove Ununsed Images:__ Remove all dangling (unused) images.
+```console
+#Example
+
+> docker image prune
+```
+
+* __Remove All images:__ Removes all images on the local machine.
+```console
+#Example
+
+> docker rmi $(docker image -q)
+```
+
+
+__2. Container Commands:__
+* __docker run:__ Run a container from an image.
+```console
+#Example
+
+> docker run -d -p 8080:80 myapp:v1
+```
+
+* __docker ps:__ List all running containers.
+```console
+#Example
+
+> docker ps
+```
+* __docker ps -a:__ List all containers (incliding stopeed ones).
+```console
+#Example
+
+> docker ps -a
+```
+
+* __docker stop:__ Stop a running container.
+```console
+#Example
+
+> docker stop container_name_or_id
+```
+
+* __docker start:__ Start a stopped container:
+```console
+#Example
+
+> docker docker start container_name_or_id
+```
+
+* __docker run -it:__ Run container in interactive mode:
+```console
+#Example
+
+> docker run -it container_name_or_id
+```
+
+* __docker run -it name sh:__ Run container in interactive shell mode:
+```console
+#Example
+
+> docker run -it container_name_or_id sh
+```
+
+* __docker rm:__ Remove stopped container.
+* __docker rm -f :__ Remove a running container (forcefully).
+```console
+#Example
+
+> docker rm container_name_or_id
+
+OR
+
+> docker rm -f container_name_or_id
+```
+
+* __dokcer inspect:__ Inspect details of a container.
+```console
+#Example
+
+> docker inspect container_name_or_id
+```
+
+* __docker exec:__ Execute a command in a running container.
+```console
+#Example
+
+> docker exec -it container_id bash
+```
+
+* __docker logs:__ View logs of a container.
+```console
+#Example
+
+> docker logs container_id
+```
+
