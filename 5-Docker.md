@@ -54,3 +54,17 @@ A container image is a read-only, standalone, executable package of software tha
 Docker uses a __client-server architecture__ to manage and run containers. The __Docker client__ talks to the __Docker daemon__, which does the heavy lifting od buiding, running, and distributing your Docker containers. The Docker client and daemon can run on the same system, or we can connect a Docker client to a remote Docker daemon. The Docker client and daemon communicate using a REST API, over UNIX sockets or a network interface. Another Docker client is Docker Compose, that lets you work with applications consisting of a set of containers.
 
 ### 1. Docker Client:
+* The Docker client (docker) is a command-line interface (CLI) or (GUI) that allows users to interact with Docker. It's used to manage Docker containers, images, networks, volumes, and other Docker objects. The Docker client can communicate with more than one daemon.
+* It sends commands to the Docker daemon to perform various tasks.
+
+### 2. Docker Daemon:
+* The Docker daemon is a background process that manages Docker containers on a host system.
+* It listens for Docker API requests and takes care of building, running, and managing containers
+
+### 3. Docker Registry:
+* Docker images can be stored and shared through Docker registries.
+* A Docker registry is a repository for Docker images, and it can be public (like Docker Hub) or private.
+
+## 4. Docker Hub:
+* Docker Hub is a cloud-based registry service provided by Docker, where users can find, share, and store Docker images.
+* It serves as a central repository for Docker images. 
