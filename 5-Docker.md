@@ -74,19 +74,32 @@ Docker uses a __client-server architecture__ to manage and run containers. The _
 
 ##  Docker Commands
 
-__1. Image Commands:__
-* __docker pull image_name:tag :__ Pull an image from a registry (Docker hub).
+__1. IMAGE COMMAND:__
+
+* __docker login:__ Login with docker account.
 ```console
 #Example
 
-> docker pull nginx:latest
+> docker login -u [user-name] -p [password]
 ```
 
-* __docker build -t image_name path-to-dockerfile :__ Build an image from a Dockerfile.
+* __docker build:__ Build an image from a Dockerfile.
 ```console
-#Example
+> docker build -t <image_name> <path_to_dockerfile>
+OR
+Build and image from a Dockerfile without the cache
+> docker build -t <image_name> . -no-cache 
 
+#Example
 > docker build -t myapp .
+```
+
+* __docker pull:__ Pull an image from a registry (Docker hub).
+```console
+> docker pull <image_name>:<tag>
+
+#Example
+> docker pull nginx:latest
 ```
 
 * __docker push image_name:tag :__
@@ -96,17 +109,18 @@ __1. Image Commands:__
 > docker push myapp:v1
 ```
 
-* __docker images :__ List all images on the local machine
+* __docker images:__ List all images on the local machine
 ```console
 #Example
 
-> docker images
+> docker images OR docker image ls
 ```
 
-* __docker image inspect image_name:tag :__ Inspect details of an image.
+* __docker image inspect:__ Inspect details of an image.
 ```console
-#Example
+> docker image inspect <image_name:tag> 
 
+#Example
 > docker images inspect myapp:v1
 ```
 
@@ -118,22 +132,31 @@ __1. Image Commands:__
 ```
 
 
-* __docker rmi image_name:tag :__ Remove an image
-* __docker rm [image_name/image_id]__
+* __docker rmi:__ Remove an image
+* __docker rm:__ Remove an image or stopped container 
 ```console
-#Example
-
-> docker rmi myapp
-
+> docker rmi <image_name>:<tag>
 OR
+> docker rm <container_id>
 
+#Example
+> docker rmi myapp
+OR
 > docker rm fd48f19954f
 ```
 
-* __Tag  an Image:__ Tags an image with a different name, providing a way to reference the same image under different names.
+* __Remove All images:__ Removes all images on the local machine.
 ```console
 #Example
 
+> docker rmi $(docker image -q)
+```
+
+* __Tag  an image:__ Tags an image with a different name, providing a way to reference the same image under different names.
+```console
+> docker tag <source_image>:<tag> <new_image>:<tag>
+
+#Example
 > docker tag myapp:latest myapp:v1
 ```
 
@@ -144,20 +167,23 @@ OR
 > docker image prune
 ```
 
-* __Remove All images:__ Removes all images on the local machine.
-```console
-#Example
-
-> docker rmi $(docker image -q)
-```
 
 
-__2. Container Commands:__
+
+__2. CONTAINER COMMAND:__
+
 * __docker run:__ Run a container from an image.
 ```console
+-d : Run container in background
+-p : Assign an port
+
 #Example
 
 > docker run -d -p 8080:80 myapp:v1
+OR
+
+Run a nammed container from an image:
+>docker run --name <container_name> <image_name:tag>
 ```
 
 * __docker ps:__ List all running containers.
