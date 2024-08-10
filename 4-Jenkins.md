@@ -71,7 +71,7 @@ __6. Release:__ This stage handles the final steps required to release the softw
 Declarative Pipeline syntax in Jenkins is a more structured and simplified way of defining pipelines than the scripted pipeline syntax. It's based on the Groovy programming language, but uses a Groovy-based Domain-Specific Language (DSL) for pipeline configuration.
 
 For Example:
-``` console
+```console
 pipeline {
     agent any
     stages {
@@ -95,7 +95,6 @@ pipeline {
         }
     }
 }
-
 ```
 
 ### Scripted pipeline:
