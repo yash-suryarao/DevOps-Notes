@@ -242,8 +242,9 @@ OR
 ```
 
 * __docker unpause:__ Unpause a paused container.
+
 ```console
 #Example
 
-> docker unpause container_name_or_id
+> docker unpause contaoner-namr-or-id
 ```
