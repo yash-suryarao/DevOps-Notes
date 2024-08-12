@@ -102,10 +102,11 @@ Build and image from a Dockerfile without the cache
 > docker pull nginx:latest
 ```
 
-* __docker push image_name:tag :__
+* __docker push:__ Push an image to Docker Hub.
 ```console
-#Example
+> docker push <image_name:tag>
 
+#Example
 > docker push myapp:v1
 ```
 
