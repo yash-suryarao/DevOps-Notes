@@ -327,7 +327,7 @@ docker run -d --mount source=my_volume,target=/data,readonly nginx
 # [**In docker volumes are there only Read and Write permission]
 ````
 
-____3. Mount a volume with '-v' Flag:__
+__4. Mount a volume with '-v' Flag:__
 ````console
 # Command
 docker run -d -v <volume_name>:</path-in-container> <image_name>
@@ -339,27 +339,27 @@ docker run -d -v my_volume:/data nginx
 docker run -d -v my_volume:/data:ro nginx
 ````
 
-__. Mount a host directory as a volume:__
+__5. Mount a host directory as a volume:__
 ````console
 docker run -v /host/path:/container/path nginx
 ````
 
-__. List all volumes:__
+__6. List all volumes:__
 ````console
 docker volume ls
 ````
 
-__. Inspect a volume:__
+__7. Inspect a volume:__
 ````console
 docker volume inspect my_volume
 ````
 
-__. Remove a volume:__
+__8. Remove a volume:__
 ````console
 docker volume rm my_volume
 ````
 
-__. Mount a host directory as a volume:__
+__9. Mount a host directory as a volume:__
 ````console
 docker run -v /host/path:/container/path image_name
 ````
