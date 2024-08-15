@@ -298,31 +298,24 @@ If your container generates non-persistent state data, consider using a tmpfs mo
 
 
 ## Volume Commands:
+** Only one volume can be mount to single container
+** We can't mount volume to running container we should first stop the container then only we can aatach an volume
 
 __1. Create a named volume:__
 ````console
 docker volume create my_volume
 ````
 
-__2. Run a container with a volume:__
-````console
-#Command
-docker run -d --name <image_name> --mount source=<volume_name>,target=<path_in_container> <image_name:tag>
-
-# Example
-docker run -d --name devtest --mount  source=my_volume,target=/app nginx:latest
-````
-
 __3. Mount a volume with '--mount' Flag:__
 ````console
 # Command
-docker run --mount source=<volume_name>,target=/path/in/container <image>
+docker run -d --name=<container_name> --mount source=<volume_name>,target=<path_in_container> <image_name:tag>
 
 # Example
-docker run -d --mount source=my_volume,target=/data nginx
+docker run -d --name=nginx_container --mount source=my_volume,target=/data nginx
 
 # Mount a volume with Specific Permission:
-docker run -d --mount source=my_volume,target=/data,readonly nginx
+docker run -d --name=nginx_container --mount source=my_volume,target=/data,readonly nginx
 
 # [**In docker volumes are there only Read and Write permission]
 ````
@@ -330,13 +323,13 @@ docker run -d --mount source=my_volume,target=/data,readonly nginx
 __4. Mount a volume with '-v' Flag:__
 ````console
 # Command
-docker run -d -v <volume_name>:</path-in-container> <image_name>
+docker run -d --name=<continer_name> -v <volume_name>:</path-in-container> <image_name>
 
 # Example
-docker run -d -v my_volume:/data nginx
+docker run -d --name=nginx_container -v my_volume:/data nginx
 
 # Mount a volume with Read-Only Permission:
-docker run -d -v my_volume:/data:ro nginx
+docker run -d --name=nginx_container -v my_volume:/data:ro nginx
 ````
 
 __5. Mount a host directory as a volume:__
@@ -357,9 +350,4 @@ docker volume inspect my_volume
 __8. Remove a volume:__
 ````console
 docker volume rm my_volume
-````
-
-__9. Mount a host directory as a volume:__
-````console
-docker run -v /host/path:/container/path image_name
 ````
