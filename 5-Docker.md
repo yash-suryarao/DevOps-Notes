@@ -78,94 +78,96 @@ __1. IMAGE COMMAND:__
 
 * __docker login:__ Login with docker account.
 ```console
-#Example
-
-> docker login -u [user-name] -p [password]
+# Example
+docker login -u [user-name] -p [password]
 ```
 
 * __docker build:__ Build an image from a Dockerfile.
 ```console
-> docker build -t <image_name> <path_to_dockerfile>
-OR
-Build and image from a Dockerfile without the cache
-> docker build -t <image_name> . -no-cache 
+# Command
+docker build -t <image_name> <path_to_dockerfile>
 
-#Example
-> docker build -t myapp .
+OR
+
+# Build and image from a Dockerfile without the cache
+docker build -t <image_name> . -no-cache 
+
+# Example
+docker build -t myapp .
 ```
 
 * __docker pull:__ Pull an image from a registry (Docker hub).
 ```console
-> docker pull <image_name>:<tag>
+# Command
+docker pull <image_name>:<tag>
 
-#Example
-> docker pull nginx:latest
+# Example
+docker pull nginx:latest
 ```
 
 * __docker push:__ Push an image to Docker Hub.
 ```console
-> docker push <image_name:tag>
+# Command
+docker push <image_name:tag>
 
-#Example
-> docker push myapp:v1
+# Example
+docker push myapp:v1
 ```
 
 * __docker images:__ List all images on the local machine
 ```console
-#Example
-
-> docker images OR docker image ls
+# Example
+docker images OR docker image ls
 ```
 
 * __docker image inspect:__ Inspect details of an image.
 ```console
-> docker image inspect <image_name:tag> 
+# Command
+docker image inspect <image_name:tag> 
 
-#Example
-> docker images inspect myapp:v1
+# Example
+docker images inspect myapp:v1
 ```
 
 * __docker save -o image_name.tar image_name:tag :__ Save an image to a tar archive
 ```console
-#Example
-
-> docker save -o myapp.tar myapp:v1
+# Example
+docker save -o myapp.tar myapp:v1
 ```
 
 
 * __docker rmi:__ Remove an image
 * __docker rm:__ Remove an image or stopped container 
 ```console
-> docker rmi <image_name>:<tag>
+# Command
+docker rmi <image_name>:<tag>
 OR
-> docker rm <container_id>
+docker rm <container_id>
 
-#Example
-> docker rmi myapp
+# Example
+docker rmi myapp
 OR
-> docker rm fd48f19954f
+docker rm fd48f19954f
 ```
 
 * __Remove All images:__ Removes all images on the local machine.
 ```console
-#Example
-
-> docker rmi $(docker image -q)
+# Example
+docker rmi $(docker image -q)
 ```
 
 * __Tag  an image:__ Tags an image with a different name, providing a way to reference the same image under different names.
 ```console
-> docker tag <source_image>:<tag> <new_image>:<tag>
+docker tag <source_image>:<tag> <new_image>:<tag>
 
-#Example
-> docker tag myapp:latest myapp:v1
+# Example
+docker tag myapp:latest myapp:v1
 ```
 
 * __Remove Ununsed Images:__ Remove all dangling (unused) images.
 ```console
-#Example
-
-> docker image prune
+# Example
+docker image prune
 ```
 
 
@@ -178,102 +180,91 @@ __2. CONTAINER COMMAND:__
 -d : Run container in background
 -p : Assign an port
 
-#Example
+# Example
+docker run -d -p 8080:80 myapp:v1
 
-> docker run -d -p 8080:80 myapp:v1
 OR
 
-Run a nammed container from an image:
->docker run --name <container_name> <image_name:tag>
+# Run a nammed container from an image:
+docker run --name <container_name> <image_name:tag>
 ```
 
 * __docker ps:__ List all running containers.
 ```console
-#Example
-
-> docker ps
+# Example
+docker ps
 ```
 * __docker ps -a:__ List all containers (incliding stopeed ones).
 ```console
-#Example
-
-> docker ps -a
+# Example
+docker ps -a
 ```
 
 * __docker stop:__ Stop a running container.
 ```console
-#Example
-
-> docker stop container_name_or_id
+# Example
+docker stop container_name_or_id
 ```
 
 * __docker start:__ Start a stopped container:
 ```console
-#Example
-
-> docker docker start container_name_or_id
+# Example
+docker docker start container_name_or_id
 ```
 
 * __docker run -it:__ Run container in interactive mode:
 ```console
-#Example
-
-> docker run -it container_name_or_id
+# Example
+docker run -it container_name_or_id
 ```
 
 * __docker run -it name sh:__ Run container in interactive shell mode:
 ```console
-#Example
-
-> docker run -it container_name_or_id sh
+# Example
+docker run -it container_name_or_id sh
 ```
 
 * __docker rm:__ Remove stopped container.
 * __docker rm -f :__ Remove a running container (forcefully).
 ```console
-#Example
+# Example
 
-> docker rm container_name_or_id
+docker rm container_name_or_id
 
 OR
 
-> docker rm -f container_name_or_id
+docker rm -f container_name_or_id
 ```
 
 * __dokcer inspect:__ Inspect details of a container.
 ```console
-#Example
-
-> docker inspect container_name_or_id
+# Example
+docker inspect container_name_or_id
 ```
 
 * __docker exec:__ Execute a command in a running container.
 ```console
-#Example
-
-> docker exec -it container_id bash
+# Example
+docker exec -it container_id bash
 ```
 
 * __docker logs:__ View logs of a container.
 ```console
-#Example
-
-> docker logs container_id
+# Example
+docker logs container_id
 ```
 
 * __docker pause:__ Pause a running container.
 ```console
-#Example
-
-> docker pause container_name_or_id
+# Example
+docker pause container_name_or_id
 ```
 
 * __docker unpause:__ Unpause a paused container.
 
 ```console
-#Example
-
-> docker unpause contaoner-namr-or-id
+# Example
+docker unpause contaoner-namr-or-id
 ```
 
 
@@ -309,13 +300,13 @@ If your container generates non-persistent state data, consider using a tmpfs mo
 ## Volume Commands:
 
 __1. Create a named volume:__
-````sh
+````console
 docker volume create my_volume
 ````
 
 __2. Run a container with a volume:__
-````sh
-# Command
+````console
+#Command
 docker run -d --name <image_name> --mount source=<volume_name>,target=<path_in_container> <image_name:tag>
 
 # Example
@@ -323,7 +314,7 @@ docker run -d --name devtest --mount  source=my_volume,target=/app nginx:latest
 ````
 
 __3. Mount a volume with '--mount' Flag:__
-````sh
+````console
 # Command
 docker run --mount source=<volume_name>,target=/path/in/container <image>
 
@@ -333,11 +324,11 @@ docker run -d --mount source=my_volume,target=/data nginx
 # Mount a volume with Specific Permission:
 docker run -d --mount source=my_volume,target=/data,readonly nginx
 
-[**In docker volumes are there only Read and Write permission]
+# [**In docker volumes are there only Read and Write permission]
 ````
 
 ____3. Mount a volume with '-v' Flag:__
-````sh
+````console
 # Command
 docker run -d -v <volume_name>:</path-in-container> <image_name>
 
@@ -349,26 +340,26 @@ docker run -d -v my_volume:/data:ro nginx
 ````
 
 __. Mount a host directory as a volume:__
-````sh
+````console
 docker run -v /host/path:/container/path nginx
 ````
 
 __. List all volumes:__
-````sh
+````console
 docker volume ls
 ````
 
 __. Inspect a volume:__
-````sh
+````console
 docker volume inspect my_volume
 ````
 
 __. Remove a volume:__
-````sh
+````console
 docker volume rm my_volume
 ````
 
 __. Mount a host directory as a volume:__
-````sh
+````console
 docker run -v /host/path:/container/path image_name
 ````
