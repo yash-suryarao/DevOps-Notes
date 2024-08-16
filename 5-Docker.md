@@ -296,6 +296,8 @@ Volumes are completely managed by Docker. Volumes have several advantages over b
 volumes are often a better choice than persisting data in a container's writable layer, because a volume doesn't increase the size of the containers using it, and the volume's contents exist outside the lifecycle of a given container.
 If your container generates non-persistent state data, consider using a tmpfs mount to avoid storing the data anywhere permanently, and to increase the container's performance by avoiding writing into the container's writable layer.
 
+* __Docker volume directory in linux: /var/lib/docker/volumes/__
+
 
 ## Volume Commands:
 ** Only one volume can be mount to single container
@@ -306,7 +308,7 @@ __1. Create a named volume:__
 docker volume create my_volume
 ````
 
-__3. Mount a volume with '--mount' Flag:__
+__2. Mount a volume with '--mount' Flag:__
 ````console
 # Command
 docker run -d --name=<container_name> --mount source=<volume_name>,target=<path_in_container> <image_name:tag>
@@ -320,7 +322,7 @@ docker run -d --name=nginx_container --mount source=my_volume,target=/data,reado
 # [**In docker volumes are there only Read and Write permission]
 ````
 
-__4. Mount a volume with '-v' Flag:__
+__3. Mount a volume with '-v' Flag:__
 ````console
 # Command
 docker run -d --name=<continer_name> -v <volume_name>:</path-in-container> <image_name>
@@ -332,22 +334,32 @@ docker run -d --name=nginx_container -v my_volume:/data nginx
 docker run -d --name=nginx_container -v my_volume:/data:ro nginx
 ````
 
-__5. Mount a host directory as a volume:__
+__4. Mount a host directory as a volume:__
 ````console
 docker run -v /host/path:/container/path nginx
 ````
 
-__6. List all volumes:__
+__5. List all volumes:__
 ````console
 docker volume ls
 ````
 
-__7. Inspect a volume:__
+__6. Inspect a volume:__
 ````console
 docker volume inspect my_volume
 ````
 
-__8. Remove a volume:__
+__7. Remove a volume:__
 ````console
 docker volume rm my_volume
+````
+
+__8. Delete all dangling volumes:__
+````console
+docker volume prune
+````
+
+__9. Remove Container and Associated Volumes:__
+````console
+docker rm -v [container_name]
 ````
