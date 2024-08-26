@@ -8,6 +8,7 @@ Kubernetes is an open-source container orchestration tool for automating softwar
 <img src="https://miro.medium.com/v2/resize:fit:828/format:webp/0*fOP7i8w794bWvUuM.png">
 
 ### Worker Node (Worker Plane):
+A Node is a `worker machine in Kubernetes and may be either a virtual or a physical machine, depending on the cluster.` Each Node is managed by the control plane. A Node can have multiple pods, and the Kubernetes control plane automatically handles scheduling the pods across the Nodes in the cluster.
 
 __1. Pod:-__ Pods are smallest deployable units in the Kubernetes cluster and the pod can hold one or more containers. A single worker node can have one or more than one pods.
 
@@ -18,6 +19,7 @@ __3. Container Runtime:-__ The container runtime, such as Docker, is responsible
 __4. Kube Proxy:-__ Kube Proxy is responsible for network proxying, pod-to-pod communication and load balancing. It enables communication between services and pods by routing network traffic to the appropriate destination, ensuring connectivity within the cluster.
 
 ### Master Node (Controle Plane):
+The master node is `responsible for cluster management and for providing the API that is used to configure and manage resources within the Kubernetes cluster.` Kubernetes master node components can be run within Kubernetes itself, as a set of containers within a dedicated pod.
 
 __1. API Server:-__ 
 
