@@ -1,5 +1,7 @@
 /var/lib/docker -> Home dir of Docker
+
 /usr/bin/docker -> Docker credentials
+
 /etc/docker -> Docker configuration files
 
 ## What is Docker?
