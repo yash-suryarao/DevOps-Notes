@@ -168,6 +168,17 @@ In git, merging branches means combining the changes from one branc into another
 
 ```
 
+__git rebase :__ 
+```console
+
+[user@localhost]  git rebase dev
+
+```
+
+__Merge VS Rebase__
+1. Merge the breanch `A` with `main` and copy the file of branch `A` into `main` also it keep the old history of `A` into `main`. Stores history in linear form. At last it creates new commit ID to print merge success message
+2. Rebase command merge branch `A` with `main` it cut and past files of branch `A` into `main` and Rebase keep the history of branch `A` into `main`. At the end it dosen't create any new commit as Merge creates.
+
 ### Merge Conflict:
 
 
