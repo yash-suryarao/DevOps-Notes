@@ -1,3 +1,7 @@
+/var/lib/docker -> Home dir of Docker
+/usr/bin/docker -> Docker credentials
+/etc/docker -> Docker configuration files
+
 ## What is Docker?
 Docker is __Containerization__ PaaS tool (container runtime engine) to create, run & deploy applications in containers.
 
