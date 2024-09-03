@@ -3,7 +3,7 @@
 
 ## 2. What does DevOps engineers actually do?
 => DevOps simplify software development and deployment by automating tasks through different practices like, <br>
-  - CICD using __GitLab__ and __GitHub.__ <br>
+  - CICD using __GitLab, GitHub and Jenkins__ <br>
   - Creating and managng infrastructure programmatically using __Terraform__ or __Ansible.__ <br>
   - Monitoring systems or applications through __Prometheus__ or __Grafana.__ <br>
   - Hosting applications on __Cloud__ or __On-premise.__ <br>
