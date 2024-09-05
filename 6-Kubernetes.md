@@ -8,11 +8,12 @@ Kubernetes is an open-source container orchestration tool for automating softwar
 <img src="https://miro.medium.com/v2/resize:fit:828/format:webp/0*fOP7i8w794bWvUuM.png">
 
 ### Worker Node (Worker Plane):
-A Node is a `worker machine in Kubernetes and may be either a virtual or a physical machine, depending on the cluster.` Each Node is managed by the control plane. A Node can have multiple pods, and the Kubernetes control plane automatically handles scheduling the pods across the Nodes in the cluster.
+`A Worker Node is a virtual or a physical machine, depending on the K8s cluster.` Each Node is managed by the control plane. A Node can have multiple pods, and the Kubernetes control plane automatically handles scheduling the pods across the Nodes in the cluster.
 
+There are 4 components in the worker node.
 __1. Pod:-__ Pods are smallest deployable units in the Kubernetes cluster and the pod can hold one or more containers. A single worker node can have one or more than one pods.
 
-__2. Kubelet:-__ The kubelet is the `agent` running on each `worker node`. It communicates with the master node and manages the containers running on the node. The kubelet ensures that the `desired state` of the `containers`, as defined by the master node, is maintained.
+__2. Kubelet:-__ The kubelet is the `agent` running on each `worker node`. It communicates with the master node and manages the pods running on the node. The kubelet ensures that the `desired state` of the `containers`, as defined by the master node, is maintained. As well kubelete monitors the lifecycle of pods which helps to start and stop the pods.
 
 __3. Container Runtime:-__ The container runtime, such as Docker, is responsible for pulling container images from a registry and running them as containers on the worker node. It provides the underlying infrastructure that allows containers to function.
 
