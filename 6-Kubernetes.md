@@ -7,6 +7,21 @@ Kubernetes is an open-source container orchestration tool for automating softwar
 ## Kubernetes Architecture
 <img src="https://miro.medium.com/v2/resize:fit:828/format:webp/0*fOP7i8w794bWvUuM.png">
 
+In the Kubernetes architecture there are two types of nodes Master Node (Control plane) and Worker Node (Worker plane):
+
+### Master Node (Controle Plane):
+Master node also known as `Control Plane` is responsible for managing the K8s cluster. It controls the `scheduling, scaling and overall lifecycle` of the containers of worker nodes. There are 4 components in Master Node:
+
+__1. API Server:-__ API server act as a central control point. API server helps to communicate between control plane and worker plane whenever the pod get restart or removed API server communicate with worker node to create new pods.
+
+__2. Scheduler:-__ Scheduler are responsible for assigning pods to worker nodes. The scheduler determines which Node are valid placement for each pod in the scheduling queue based on resource availability.
+
+__3. Controller Manager:-__ The controller Manager monitors the current state of cluster through API server and makes appropriate changes to keep the application running by ensuring sufficient Pods are in a healthy state.
+**Types of Controller Manager= DeamonSet, Deployment, Service, Statefulset, and Node Controller.
+
+__4. etcd:-__ etcd is database of k8s server that store metadata/action that perform by the objects present in worker node and master node (kubelet, scheduler, API server, controller manager) in form of key-value pair.
+
+
 ### Worker Node (Worker Plane):
 `A Worker Node is a virtual or a physical machine, depending on the K8s cluster.` Each Node is managed by the control plane. A Node can have multiple pods, and the Kubernetes control plane automatically handles scheduling the pods across the Nodes in the cluster.
 
@@ -18,14 +33,3 @@ __2. Kubelet:-__ The kubelet is the `agent` running on each `worker node`. It co
 __3. Container Runtime:-__ The container runtime, such as Docker, is responsible for pulling container images from a registry and running them as containers on the worker node. It provides the underlying infrastructure that allows containers to function.
 
 __4. Kube Proxy:-__ Kube Proxy is responsible for network proxying, pod-to-pod communication and load balancing. It enables communication between services and pods by routing network traffic to the appropriate destination, ensuring connectivity within the cluster.
-
-### Master Node (Controle Plane):
-The master node is `responsible for cluster management and for providing the API that is used to configure and manage resources within the Kubernetes cluster.` Kubernetes master node components can be run within Kubernetes itself, as a set of containers within a dedicated pod.
-
-__1. API Server:-__ 
-
-__2. Scheduler:-__ 
-
-__3. Controller Manager:-__ 
-
-__4. etcd:-__ 
